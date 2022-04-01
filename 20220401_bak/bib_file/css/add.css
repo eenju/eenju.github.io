@@ -36,17 +36,15 @@
 }
 
 #copyrights img{
-  padding-top: 10px;
-  height: 3.5rem;
- 
+  padding-top: 15px;
+  height: 85px;
 }
 
 #copyrights p{
-  text-align: right;
+  text-align: center;
   font-size: 0.9rem;
   color: #fff;
-  padding-top: 10px;
-  padding-right: 15px;
+  padding-top: 15px;
 }
 /*--/copy-rights--*/	
 
@@ -143,18 +141,26 @@
 
 /*研究成果设置--结束*/
 
+
+
 /*不同尺寸屏幕适配*/
 @media screen and (min-width: 768px){ /*大于等于768*/
-
+  #copyrights p{
+    text-align: left;
+  }
 }
 @media screen and (min-width: 992px){ /*大于等于992*/
-
+  #copyrights p{
+    text-align: left;
+  }
   #lslpic{
     width: 100%;
   }
 }
 @media screen and (min-width: 1200px){ /*大于等于1200*/
-
+  #copyrights p{
+    text-align: left;
+  }
   #lslpic{
     width: 100%;
   }

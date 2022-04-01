@@ -1,13 +1,4 @@
-/*--基础字体设置--*/
-.basictext p {
-  font-size: 1.1rem;
-  color: #000;
-  font-weight: 200;
-  line-height: 1.8rem;
-}
-/*--基础字体设置--*/
-
-/*--导航栏字体设置--*/
+/*--导航栏设置--开始--*/
 .bg-custom{
   background-color: #740A64 !important; /*来自南京大学徽标字体CMYK=50,100,0,30*/
 
@@ -19,17 +10,38 @@
 .nav-link {
   font-size:1.2rem;
 }
-/*--导航栏字体设置--*/
+/*--导航栏设置--结束--*/
 
-/*--面包屑导航字体设置--*/
+/*--面包屑导航设置--开始--*/
 #mybread{
   background-color: #FFFFFF;
   font-size: 1.0rem;
 }
-/*--面包屑导航字体设置--*/
+/*--面包屑导航设置--结束--*/
 
+/*--课题组主页设置--开始--*/
+#main{
+  padding-top: 0.2rem;
+}
 
-/*--copy-rights--*/
+.intro{
+  margin-top: 2rem;
+}
+
+.intro h2{
+  font-size: 1.7rem;
+}
+
+.intro p {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 200;
+  line-height: 1.8rem;
+}
+/*--课题组主页设置--结束--*/
+
+/*--copy-rights设置开始--*/
 #copyrights {
   margin-top: 20px;
   background-color: #555;
@@ -48,10 +60,10 @@
   padding-top: 10px;
   padding-right: 15px;
 }
-/*--/copy-rights--*/	
+/*--copy-rights设置结束--*/
 
 
-/*equipment设置*/
+/*equipment设置--开始--*/
 .equipment h5{
   /*color: #00ced1;*/
   color: #B88C4C;  /*来自南京大学徽标字体CMYK=30,45,75,5*/
@@ -64,9 +76,9 @@
   font-weight: 200;
   line-height: 1.8rem;
 }
-/*equipment设置*/
+/*equipment设置--结束--*/
 
-/*member设置*/
+/*member设置--开始--*/
 .category{
   text-align: center;
 }
@@ -87,7 +99,7 @@
   font-weight: 200;
   line-height: 1.8rem;
 }
-/*member设置*/
+/*member设置--结束--*/
 
 /*渐变色水平分割线--开始*/
 .horiline{

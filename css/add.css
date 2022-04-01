@@ -84,7 +84,7 @@
 }
 .category h5{
   color: #B88C4C;
-  padding-bottom: 15px;
+  /*padding-bottom: 15px;*/
 }
 
 .membername{
@@ -107,7 +107,7 @@
   background:linear-gradient(to left,#F4CC60,#BF914F,#F4CC60);
   /*渐变色--来自南大*/
   height:2px;
-  margin-top: -15px;
+  /*margin-top: -15px;*/
   margin-bottom: 20px;
 }
 /*渐变色水平分割线--结束*/

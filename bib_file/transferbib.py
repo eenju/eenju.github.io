@@ -68,7 +68,7 @@ def main(origin,des):
 
 if __name__=='__main__':
     origin='./lilab.bib'
-    des='./publist.html'
+    des='../publist.html'
     main(origin,des)
 
 #旧版所用，新版不再需要

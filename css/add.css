@@ -83,6 +83,7 @@
 .equipment p{
   /*正文字体设置*/
   font-size: 1.1rem;
+  text-align: justify;
   color: #000;
   font-weight: 300;
   line-height: 1.8rem;

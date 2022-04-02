@@ -60,12 +60,15 @@ def getsource(bib):
     return source+'&nbsp;'
 
 def getbibinfo(bib):
-    '''不区分文献类型'''
-    bibinfo='@'+bib['ENTRYTYPE']+'{'+bib['ID']+',</br>\n'
-    for item in bib:
-        if item !='ENTRYTYPE' and item !='ID' and item !='note':
-            bibinfo=bibinfo+item+'={'+bib[item]+'},</br>\n'
-    return bibinfo+'}'
+    '''去除misc的输出'''
+    if bib['ENTRYTYPE'].lower()=='misc':
+        return "暂无bib"
+    else:
+        bibinfo='@'+bib['ENTRYTYPE']+'{'+bib['ID']+',</br>\n'
+        for item in bib:
+            if item !='ENTRYTYPE' and item !='ID' and item !='note':
+                bibinfo=bibinfo+item+'={'+bib[item]+'},</br>\n'
+        return bibinfo+'}'
 
 def getdoiurl(bib):
     if bib['ENTRYTYPE'].lower()=='misc':

@@ -534,6 +534,14 @@
   keywords = {Charge injection, Contact length, Contact resistance, Charge transport, Organic transistors},
 }
 
+@Misc{Zhou2022,
+  author       = {Zhou, Jian and Zhang, Chunchen and Shi, Li and Chen, Xiaoqing and Kim, Tae-Soo and Gyeon, Minseung and Chen, Jian and Wang, Jinlan and Yu, Linwei and Wang, Xinran and Kang, Kibum and Orgiu, Emanuele and Samori, Paolo and Watanabe, Kenji and Taniguchi, Takashi and Tsukagoshi, Kazuhito and Wang, Peng and Shi, Yi and Li, Songlin},
+  howpublished = {Nature Communications},
+  note         = {20220300},
+  title        = {Non-invasive digital etching of van der {Waals} semiconductors},
+  year         = {2022},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:

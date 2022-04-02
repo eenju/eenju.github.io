@@ -5,6 +5,10 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
   font-family: Arial, Microsoft YaHei,'宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
 
+b{
+  font-weight: 600;
+  color: #606060;
+}
 
 /*--导航栏设置--开始--*/
 .bg-custom{
@@ -96,17 +100,29 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
   font-size: 1.4rem;
   /*padding-bottom: 15px;*/
 }
-
+.member
+{
+  padding-bottom: 10px;
+}
 .membername{
   /*color: #B88C4C;*/
   font-size: 1.3rem;
   font-weight: 600;
+  line-height: 1.3rem;
+}
+.longintro{
+  line-height: 1.8rem;
+  text-align: justify;
 }
 .memberinfo{
   font-size: 1.0rem;
   font-weight: 400;
-  line-height: 1.8rem;
-  text-align: justify;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+#alumnilist li{
+  padding-top: 0.5rem;
 }
 /*member设置--结束--*/
 

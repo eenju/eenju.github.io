@@ -1,3 +1,11 @@
+/*字体设置，英文默认Arial，中文宋体*/
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
+{
+  /*font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;*/
+  font-family: Arial, Microsoft YaHei,'宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+
 /*--导航栏设置--开始--*/
 .bg-custom{
   background-color: #740A64 !important; /*来自南京大学徽标字体CMYK=50,100,0,30*/
@@ -15,29 +23,23 @@
 /*--面包屑导航设置--开始--*/
 #mybread{
   background-color: #FFFFFF;
-  font-size: 1.0rem;
 }
 /*--面包屑导航设置--结束--*/
 
 /*--课题组主页设置--开始--*/
-#main{
-  padding-top: 0.2rem;
-}
-
 .intro{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
-
 .intro h2{
+  /*BF914F   B88C4C*/
+  color: #BF914F;
   font-size: 1.7rem;
 }
-
 .intro p {
   text-align: justify;
-  font-size: 1.1rem;
-  color: #000;
-  font-weight: 300;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.0rem;
 }
 
 /*修改轮播图按钮颜色*/
@@ -47,9 +49,6 @@
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
-
-
-
 /*--课题组主页设置--结束--*/
 
 /*--copy-rights设置开始--*/
@@ -78,14 +77,12 @@
 .equipment h5{
   /*color: #00ced1;*/
   color: #B88C4C;  /*来自南京大学徽标字体CMYK=30,45,75,5*/
-  font-weight: 550;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 .equipment p{
   /*正文字体设置*/
-  font-size: 1.1rem;
   text-align: justify;
-  color: #000;
-  font-weight: 300;
   line-height: 1.8rem;
 }
 /*equipment设置--结束--*/
@@ -96,20 +93,20 @@
 }
 .category h5{
   color: #B88C4C;
+  font-size: 1.4rem;
   /*padding-bottom: 15px;*/
 }
 
 .membername{
   /*color: #B88C4C;*/
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 600;
 }
-
 .memberinfo{
-  font-size: 1.1rem;
-  color: #000;
-  font-weight: 300;
+  font-size: 1.0rem;
+  font-weight: 400;
   line-height: 1.8rem;
+  text-align: justify;
 }
 /*member设置--结束--*/
 

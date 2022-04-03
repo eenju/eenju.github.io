@@ -4,6 +4,9 @@ body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6
   /*font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;*/
   font-family: Arial, Microsoft YaHei,'宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
+html, body {
+  min-height: 100%;
+}
 
 b{
   font-weight: 600;
@@ -56,6 +59,7 @@ b{
 /*--课题组主页设置--结束--*/
 
 /*--copy-rights设置开始--*/
+
 #copyrights {
   margin-top: 20px;
   background-color: #555;
@@ -193,8 +197,9 @@ b{
 @media screen and (min-width: 1200px){ /*大于等于1200*/
 
   #lslpic{
-    width: 100%;
+    width: 66%;  /*适应大屏幕下照片过长问题*/
   }
 }
 /*不同尺寸屏幕适配*/
+
 

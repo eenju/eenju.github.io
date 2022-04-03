@@ -36,7 +36,7 @@
     </script>
 
 </head>
-<body style="height: 100%;">
+<body>
     <!-- 头部 header - start -->
     <!--
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-info">
@@ -72,11 +72,11 @@
         </ul>
         </div>
         <!-- 切换菜单内容 -->
-    
-    <form class="form-inline navbar-form pull-right collapse navbar-collapse">
-        <input class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-success-outline" type="submit">Search</button>
-    </form>
+        
+        <!--准备添加搜索-->
+        <form class="form-inline navbar-form pull-right collapse navbar-collapse" action="search.html" onsubmit="return validateForm(this.elements['q'].value);">
+            <input type="text" class="form-control" placeholder="Search" name="q" id="tipue_search_input">
+        </form>
     </nav>
     <!-- 头部 header - end -->
 	<div class="container-fluid" >

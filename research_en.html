@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <!--
     创建者：周健
 -->
@@ -68,10 +68,10 @@
         </div>
         <!-- 切换菜单内容 -->
     
-    <form class="form-inline navbar-form pull-right collapse navbar-collapse">
-        <input class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-success-outline" type="submit">Search</button>
-    </form>
+        <!--准备添加搜索-->
+        <form class="form-inline navbar-form pull-right collapse navbar-collapse" action="search.html" onsubmit="return validateForm(this.elements['q'].value);">
+            <input type="text" class="form-control" placeholder="Search" name="q" id="tipue_search_input">
+        </form>
     </nav>
     <!-- 头部 header - end -->
 
@@ -79,7 +79,7 @@
     <nav>
         <ol class="breadcrumb" id="mybread">
             <li>Where you are:&emsp;</li>
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="index_en.html">Home</a></li>
             <li class="breadcrumb-item active">Research</li>
         </ol>
     </nav>

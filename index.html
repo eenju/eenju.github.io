@@ -32,6 +32,9 @@
         $(document).ready(function(){
             $("#mycarousel").load("reuse/slide.html");
             $("#copyrights").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){
+                $("body").append(data);
+            });
         });
     </script>
 
@@ -111,7 +114,6 @@
     <footer id="copyrights">
 
     </footer>
-
-
+    
 </body>
 </html>

@@ -27,7 +27,12 @@
     <!-- 引入 js 库--结束 -->
     <!--载入footer-->
     <script type="text/javascript">
-        $(document).ready(function(){$("#copyrights").load("reuse/footer.html");});
+        $(document).ready(function(){
+            $("#copyrights").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){
+                $("body").append(data);
+            });
+        });
     </script>
 
 </head>

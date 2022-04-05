@@ -30,6 +30,9 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $("#copyrights").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){
+                $("body").append(data);
+            });
         });
     </script>
 
@@ -328,7 +331,6 @@
     <footer id="copyrights">
 
     </footer>
-
 
 </body>
 </html>

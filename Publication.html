@@ -31,6 +31,9 @@
         $(document).ready(function(){
             $("#publist").load("reuse/publist.html");
             $("#copyrights").load("reuse/footer.html");
+            $.get("reuse/gotop.html",function(data){
+                $("body").append(data);
+            });
         });
     </script>
 

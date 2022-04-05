@@ -13,7 +13,7 @@ html_escape_table = {
     '\\upsilon':'υ','\\phi':'ϕ','\\varphi':'φ','\\chi':'χ','\\psi':'ψ',
     '{':'','}':'',
     }
-paper='<tr><td class="paperlist"><a href="doiurl" target="_blank">papertitle</a><br/>paperauthor<br/>source</b><button data-toggle="collapse" data-target="#bibkey" type="button" class="mybtn btn-link">bib</button><div id="bibkey" class="collapse bibtex">bibinfo</div>  </td></tr>'
+paper='<tr><td class="paperlist">order. <a href="doiurl" target="_blank">papertitle</a><br/>paperauthor<br/>source</b><button data-toggle="collapse" data-target="#bibkey" type="button" class="mybtn btn-link">bib</button><div id="bibkey" class="collapse bibtex">bibinfo</div>  </td></tr>'
 
 
 def change(text):
@@ -61,12 +61,13 @@ def getsource(bib):
 
 def getbibinfo(bib):
     '''去除misc的输出'''
+    exclued_field=['groups','ENTRYTYPE','ID','note','category','file','abstract']
     if bib['ENTRYTYPE'].lower()=='misc':
         return "暂无bib"
     else:
         bibinfo='@'+bib['ENTRYTYPE']+'{'+bib['ID']+',</br>\n'
         for item in bib:
-            if item !='ENTRYTYPE' and item !='ID' and item !='note':
+            if item not in exclued_field:
                 bibinfo=bibinfo+item+'={'+bib[item]+'},</br>\n'
         return bibinfo+'}'
 
@@ -77,11 +78,13 @@ def getdoiurl(bib):
     else:
         return 'https://doi.org/'+bib['doi']
     
-#paper='<tr><td class="paperlist"><a href="doiurl" target="_blank">papertitle</a><br/>paperauthor<br/>source</b><button data-toggle="collapse" data-target="#bibkey" type="button" class="mybtn btn-link">bib</button><div id="bibkey" class="collapse bibtex">bibinfo</div>  </td></tr>'
-def formatitem(bib):
+#paper='<tr><td class="paperlist">order. <a href="doiurl" target="_blank">papertitle</a><br/>paperauthor<br/>source</b><button data-toggle="collapse" data-target="#bibkey" type="button" class="mybtn btn-link">bib</button><div id="bibkey" class="collapse bibtex">bibinfo</div>  </td></tr>'
+def formatitem(bib,order):
     '''获取格式化输出'''
+    print('正在处理第%d个文献'%order)
     bibkey=bib['ID']
-    tmp=paper.replace('doiurl',getdoiurl(bib))
+    tmp=paper.replace('order',str(order))
+    tmp=tmp.replace('doiurl',getdoiurl(bib))
     tmp=tmp.replace('papertitle',gettitle(bib))
     tmp=tmp.replace('paperauthor',getauthor(bib))
     tmp=tmp.replace('source',getsource(bib))

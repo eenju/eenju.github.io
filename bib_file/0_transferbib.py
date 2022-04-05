@@ -1,6 +1,6 @@
 #默认bib文件已按照时间顺序排列
 import bibtexparser
-from deal_bib import *
+from _deal_bib import *
 import time
 import re
 from tkinter import messagebox
@@ -46,6 +46,7 @@ def main(origin,des):
     if timestamp==None:
         messagebox.showerror('note域重复，请检查')
     else:
+        order=len(timestamp)  #加入排序
         for item in timestamp:
             bib=entry_dict[item]
             year=int(bib['year'])
@@ -60,8 +61,9 @@ def main(origin,des):
                 stop=True
             else:
                 pass
-            newitem=formatitem(bib)
+            newitem=formatitem(bib,order)
             html=html+newitem+'\n\n'
+            order=order-1
         html=html+'</table>'
         with open(des,'w+',encoding='utf8') as f:
             f.write(html)
@@ -70,20 +72,3 @@ if __name__=='__main__':
     origin='./lilab.bib'
     des='./publist.html'
     main(origin,des)
-
-#旧版所用，新版不再需要
-# monlist=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
-'''
-#旧版
-for i in range(start,end-1,-1):
-    years=str(i)
-    newcategory=category.replace('yearcategory',years)+'\n'
-    html=html+newcategory
-    for bib in biball.entries:
-        if bib['year']==years:
-            newitem=formatitem(bib)
-            html=html+newitem+'\n\n'
-html=html+'</table>'
-with open('./pypublist.html','w+',encoding='utf8') as f:
-    f.write(html)
-'''

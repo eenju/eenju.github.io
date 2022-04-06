@@ -215,8 +215,8 @@ div.go-top {
   opacity: 0.6;
   z-index: 999999;
   position: fixed;
-  bottom: 70px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   border: 1px solid #a38a54;
   width: 38px;
   height: 38px;

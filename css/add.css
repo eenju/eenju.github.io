@@ -51,7 +51,6 @@ b{
 /*修改轮播图指示器颜色*/
 .carousel-indicators li {
   background-color: goldenrod;
-  color: gol;
 }
 
 /*修改轮播图左右按钮颜色*/
@@ -82,7 +81,7 @@ b{
   font-size: 0.9rem;
   color: #fff;
   padding-top: 10px;
-  padding-right: 15px;
+  padding-right: 40px;
 }
 /*--copy-rights设置结束--*/
 
@@ -216,7 +215,7 @@ div.go-top {
   z-index: 999999;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 10px;
   border: 1px solid #a38a54;
   width: 38px;
   height: 38px;

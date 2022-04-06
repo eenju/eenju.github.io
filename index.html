@@ -31,7 +31,10 @@
     <!--载入footer-->
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#mycarousel").load("reuse/slide.html");
+            //$("#mycarousel").load("reuse/slide.html");
+            $("#myindicators").load("reuse/slide_indicators.html");
+            $("#myinner").load("reuse/slide_inner.html");
+
             $("#copyrights").load("reuse/footer.html");
             $.get("reuse/gotop.html",function(data){
                 $("body").append(data);
@@ -102,7 +105,14 @@
                 </div>
                 <!--幻灯片播放-->
                 <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators" id="myindicators">
+                        
+                    </ol>
+                    <div class="carousel-inner" id="myinner">
 
+                    </div>
+                    <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
             <div class="col-md-2">

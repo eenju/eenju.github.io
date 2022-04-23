@@ -1,7 +1,10 @@
 import bibtexparser
 import re
-pattern1=re.compile(r'\$_{(.+?)}\$')
-pattern2=re.compile(r'\$\^{(.+?)}\$')
+pattern1=re.compile(r'\$_{(.+?)}\$')              #下标格式1
+pattern2=re.compile(r'\$\^{(.+?)}\$')             #上标格式1
+pattern3=re.compile(r'\\textsubscript{(.+?)}')    #下标格式2
+pattern4=re.compile(r'\\textsuperscript{(.+?)}')  #上标格式2
+
 html_escape_table = {
     '&': '&amp;',
     '--':'–',
@@ -19,7 +22,10 @@ paper='<tr><td class="paperlist">order. <a href="doiurl" target="_blank">paperti
 def change(text):
     '''替换上下标'''
     tmp=re.sub(pattern1,lambda m:'<sub>'+m.group(1)+'</sub>',text)
+    tmp=re.sub(pattern3,lambda m:'<sub>'+m.group(1)+'</sub>',text)
     tmp=re.sub(pattern2,lambda m:'<sup>'+m.group(1)+'</sup>',tmp)
+    tmp=re.sub(pattern4,lambda m:'<sup>'+m.group(1)+'</sup>',tmp)
+
     for item in html_escape_table:
         tmp=tmp.replace(item,html_escape_table[item])
     return tmp

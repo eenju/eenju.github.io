@@ -12,13 +12,14 @@
     <meta name="title" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>Lilab Facilities</title>
+    <title>Lilab 仪器设备</title>
     <!--增加网页logo-->
     <link rel="shortcut icon" href="img/logo.svg"/>
     <!--样式文件--开始-->
     <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
     <!--你自己的样式文件 -->
     <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
@@ -41,7 +42,7 @@
 <body>
     <!-- 头部 header - start -->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom">
-        <a class="navbar-brand" href="index.html">LiLab</a>
+        <a class="navbar-brand" href="index.html"><img src="img/lilab.png" height="50px"/></a>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-expanded="false">
             &#9776;
@@ -80,113 +81,200 @@
     </nav>
     <!-- 头部 header - end -->
 
-    <!-- 面包屑导航   start -->
-    <nav>
-        <ol class="breadcrumb" id="mybread">
-            <li>Where you are:&emsp;</li>
-            <li class="breadcrumb-item"><a href="index_en.html">Home</a></li>
-            <li class="breadcrumb-item active">Facilities</li>
-        </ol>
-    </nav>
-    <!-- 面包屑导航   end -->
 
+    <div class="equipment_slogon">
+        Limited Facilities, Endless Ideas
+        <br/>设备有限, 思维无限
+    </div>
 
 	<div class="container-fluid" >
         <!-- 中部 content - start -->
         <div class="row"  id="main">
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
                 <!--仪器设备介绍-->
+                <h2 id="fab">Micro Fabrication and Integration Technology Center
+                </h2>
+                <div class="horiline"></div>
                 <div class="row">
-                    <!--设备1-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                        <img src="./img/equipment/glovebox.jpg" alt="多级联合手套箱" width="100%"/>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/1_en.jpg" width="100%"/>
+                        <p>Micro Fabrication and Integration Technology Center</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment">
-                        <h5 >Multi station/function glovebox</h5>
-                        <p>Two-dimensional materials and their heterostructures are very sensitive to oxygen and water in the ambient, which can be avoided by the inert gas environment of the glovebox. 
-                        We have a multi station glovebox, including six station physical glovebox and two station chemical glovebox.
-                        The oxygen and water content in the glovebox is limited to less than 1 ppm.
-                        Besides, plenty of facilities have been integrated to glovebox for multi functional experiments, including microscope, spin coater, transfer platform, thermal evaporation, etc.
-                        </p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/2.jpg" width="100%"/>
+                        <p>Film deposition process area</p>
                     </div>
-                    <!--设备2-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/evaporation.jpg" alt="热蒸发" width="100%"/>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/3.jpg" width="100%"/>
+                        <p>Photolithography technology area</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Inert Atmosphere Thermal Evaporation</h5>
-                        <p>The thermal evaporation could be used for thin film deposition, including Ni, Cr, Ag, Al, Au, MoO<sub>3</sub>, etc., to meet various experimental needs, e.g., device electrodes preparation.<br/>
-                        In addition, the thermal evaporation have been integrated into the glovebox, which could effectively avoid the influence of water and oxygen adsorption.
-                        </p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/4.jpg" width="100%"/>
+                        <p>Film etching process area</p>
                     </div>
-                    <!--设备3-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/transfer.png" alt="转移平台" width="100%"/>
+                </div>
+                <h2 id="public">Public Facilities</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/1.jpg" width="100%"/>
+                        <p>Electron Beam Lithography</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Inert Atmosphere Transfer Platform</h5>
-                        <p>The abundance of two-dimensional materials enables us to construct multi-functional heterostructures. Transfer platform is a general tool for constructing heterostructures of two-dimensional materials.<br/>
-                        The transfer platform is also integrated into the glovebox to avoid sample degradation, water and oxygen adsorption, etc.
-                        </p>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/2.jpg" width="100%"/>
+                        <p>Atomic Layer Deposition</p>
                     </div>
-                    <!--设备4-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/EBL.jpg" alt="电子束曝光系统" width="100%"/>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/3.jpg" width="100%"/>
+                        <p>UV exposure</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Electron Beam Lithography System</h5>
-                        <p>The preparation of device electrodes or other patterns in our group is mainly realized by Electron Beam Lithography (EBL).<br/>
-                        This electron beam lithography system is an ELS3700 product produced by Elionix Inc. in Japan, which could achieve a minimum linewidth of 100 nm.
-                        </p>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/4.jpg" width="100%"/>
+                        <p>Inductively coupled plasma etching</p>
                     </div>
-                    <!--设备5-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/probe.png" alt="真空低温探针台" width="100%"/>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/5.jpg" width="100%"/>
+                        <p>Reactive Ion Etching</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Vacuum Cryogenic Probe Station</h5>
-                        <p> The CRX-6.5K Vacuum Cryogenic Probe Station produced by Lake Shore Cryotronics Inc. allows us to characterize devices at temperatures as low as 8 K.<br/>
-                        In addition, a laser probe arm is reserved in the probe station, enables it to carry out abundant optoelectronic measurements.
-                        </p>
+                </div>
+                <h2 id="private">Lab Facilities</h2>
+                <div class="horiline"></div>
+
+                <!--组内设备1，开始-->
+                <div class="private_title">
+                    <h3>In situ glove box</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_1/1.jpg" width="70%"/>
                     </div>
-                    <!--设备6-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/probe_glove.jpg" alt="惰性气氛探针台" width="100%"/>
+                    <div class="private1">
+                        <p>Custom-made 16-station glove box</p>
+                        <ul class="sm-none-zj">
+                            <li>Device fabrication</li>
+                            <li>Thermal evaporation</li>
+                            <li>Chemical glove box</li>
+                            <li>High temperature probe station</li>
+                        </ul>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Inert Atmosphere Probe Station</h5>
-                        <p>We also have an inert atmosphere room temperature probe station integrated in the glovebox, in addition to the Vacuum Cryogenic Probe Station.<br/>
-                        It enables us to complete the in situ fabrication and measurement of devices in the glovebox, by cooperating with other equipment.
-                        </p>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 37%;">
+                        <img src="img/equipment/private_1/2.jpg" width="95%"/>
+                        <p>Device fabrication</p>
+                        <img src="img/equipment/private_1/3.jpg" width="95%"/>
+                        <p>6-inch High temperature probe station</p>
                     </div>
-                    <!--设备7-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/lowt.png" alt="超导磁体低温系统" width="100%"/>
+                    <div class="flex-fill flex-single-item" style="width: 26%;">
+                        <img src="img/equipment/private_1/4.jpg" width="95%"/>
+                        <p>In situ Thermal evaporation</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Cryofree® superconducting magnet system</h5>
-                        <p>The transport properties of charge carriers need to be characterized at low temperature and high magnetic field.
-                        We have a TeslatronPT Cryofree® superconducting magnet system produced by Oxford Instruments.<br/>
-                        
-                        It allows us to measure at a magnetic flux density of up to 12 T, and the temperature can be reduced to 1.5 K and 300 mK with HE4 and He3 inserts, respectively.
-                        </p>
+                    <div class="flex-fill" style="width: 37%;">
+                        <img src="img/equipment/private_1/5.jpg" width="95%"/>
+                        <p>opto-electronic measurement</p>
+                        <img src="img/equipment/private_1/6.jpg" width="95%"/>
+                        <p>Chemical glove box</p>  
+                    </div>
+                </div>
+                <!--组内设备1，结束-->
+
+                <!--组内设备2，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>Low temperature probe station (closed cycle refrigeration)</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_2/1.jpg" width="70%"/>
+                    </div>
+                    <div class="private2">
+                        <p>Multifunctional low temperature probe station</p>
+                        <ul class="sm-none-zj">
+                            <li>10-350 K</li>
+                            <li>5 Probe arm + back gate base</li>
+                            <li>1 fiber arm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 50%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">BN encapsulated single layer MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/2.jpg" width="95%"/>
+                        <!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+                        <p style="color: blue;"><i>Nat. Commun.</i> 13(1):1844 (2022) </p>
+                    </div>
+                    <div class="flex-fill flex-single-item" style="width: 50%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">BN encapsulated 6 layerx MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/3.jpg" width="95%"/>
+                        <p style="color: blue;"><i>ACS Appl. Mater. Interfaces.</i> 14(16):18697 (2022)</p>
+                    </div>
+                </div>
+                <!--组内设备2，结束-->
+
+                <!--组内设备3，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>Low temperature high Magnetic field platform</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_3/1.png" width="70%"/>
+                    </div>
+                    <div class="private3">
+                        <p>Low temperature high Magnetic field platform</p>
+                        <ul class="sm-none-zj">
+                            <li>1.6K, 12T
+                            </li>
+                            <li>Quantum transport of new materials</li>
+                            <li>Multiple testing programs powered by python</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 100%;">
+                        <img src="img/equipment/private_3/2.png" width="95%"/>
+                        <!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+                        <p>Graphene-based device and its quantum oscillation</p>
+                    </div>
+                </div>
+                <!--组内设备3，结束-->
+            
+                <!--组内设备4，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>CVD + CVT for sample preparation</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_4/1.png" width="70%"/>
+                    </div>
+                    <div class="private4" style="top:60%">
+                        <p>Three temperature zone tube furnace</p>
+                        <ul class="sm-none-zj" >
+                            <li>CVD furnace:2, CVT furnace:2
+                            </li>
+                            <li>Iodine acts as a transport medium</li>
+                            <li>Temperature gradients are used for sublimation and crystallization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 40%;">
+                        <img src="img/equipment/private_4/2.png" width="95%"/>
+                        <p>Growth with CVT tube furnace</p>
+                    </div>
+                    <div class="flex-fill flex-single-item" style="width: 20%;">
+                        <img src="img/equipment/private_4/3.png" width="95%"/>
+                    </div>
+                    <div class="flex-fill" style="width: 40%;">
+                        <img src="img/equipment/private_4/4.png" width="95%"/>
+                        <p>Centimeter-size WSe<sub>2</sub> crystal flake</p>
                     </div>
 
-                    <!--设备8-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/furnace.jpg" alt="管式炉" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >Multi temperature zone tube furnace</h5>
-                        <p>We have two three-temperature zone tube furnaces, two double-temperature zone tube furnaces and two single-temperature zone tube furnaces, could be used for the growth of various materials, device annealing, etc.
-                        </p>
-                    </div>
-                    
                 </div>
+                <!--组内设备4，结束-->
+
+
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="sm-none-zj sidebar">
+                    <ul>
+                        <li ><a href="#fab">Micro Fabrication and Integration Technology Center</a></li>
+                        <li ><a href="#public">Public Facilities</a></li>
+                        <li ><a href="#private">Lab Facilities</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 

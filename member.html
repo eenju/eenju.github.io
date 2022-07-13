@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
     <!--你自己的样式文件 -->
     <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
@@ -41,7 +42,7 @@
 <body>
     <!-- 头部 header - start -->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom">
-        <a class="navbar-brand" href="index.html">LiLab</a>
+        <a class="navbar-brand" href="index.html"><img src="img/lilab.png" height="50px"/></a>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-expanded="false">
             &#9776;
@@ -80,249 +81,232 @@
     </nav>
     <!-- 头部 header - end -->
 
-    <!-- 面包屑导航   start -->
-    <nav>
-        <ol class="breadcrumb" id="mybread">
-            <li>您所在位置：</li>
-            <li class="breadcrumb-item"><a href="index.html">主页</a></li>
-            <li class="breadcrumb-item active">组内成员</li>
-        </ol>
-    </nav>
-    <!-- 面包屑导航   end -->
-
-
 	<div class="container-fluid" >
         <!-- 中部 content - start -->
-        <div class="row"  id="main">
-            <div class="col-md-2">
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
             </div>
-            <div class="col-md-8">
-                <!--组内成员介绍-->
+
+            <!--组内成员介绍-->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
+                <h2 id="member1">课题组负责人</h2>
+                <div class="horiline"></div>
                 <div class="row">
-                    <!--老师-->
-                    <div class="category col-lg-12 col-md-12 col-sm-12 col-12">
-                        <h5>课题组负责人</h5>
-                        <div class="horiline"></div>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 col-12" style="text-align: center;">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12" style="text-align: center;">
                         <img src="./img/member/lsl.jpg" width="66%" id="lslpic" alt="黎松林老师">
                     </div>
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-12">
-                        <p class="membername">黎松林</p>
-                        <table class="table table-hover table-sm">
-                            <tr>
-                                <td>
-                                    1999-2006
-                                </td>
-                                <td>
-                                    重庆大学物理系，
-                                </td>
-                                <td>
-                                    本科、硕士
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    2006-2009
-                                </td>
-                                <td>
-                                    中国科学院物理研究所
-                                </td>
-                                <td>
-                                    博士
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    2009-2011
-                                </td>
-                                <td>
-                                    日本国立材料研究所
-                                </td>
-                                <td>
-                                    博士后
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    2011-2014
-                                </td>
-                                <td>
-                                    日本国立材料研究所青年科学家中心
-                                </td>
-                                <td>
-                                    ICYS Fellow (Tenure Track)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    2014-2016
-                                </td>
-                                <td>
-                                    法国斯特拉斯堡大学
-                                </td>
-                                <td>
-                                    博士后
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    2016-present
-                                </td>
-                                <td>
-                                    南京大学
-                                </td>
-                                <td>
-                                    “国家青年计划”，副教授、博导
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="margin-top:15px;">
-                        <p class="longintro"> 近年主要开展二维材料电子与信息器件的研究。在国际上首次实现输入输出匹配的石墨烯电压反相器，被欧盟石墨烯“旗舰计划”的发展路线图中高度评价；发展了针对二维原子晶体沟道晶体管的普适物理散射模型，厘清二维原子晶体半导体沟道迁移率厚度依赖性。主持国家自然科学基金面上项目等，在Chem. Soc. Rev.，Nano Lett.，Adv. Mater.，ACS Nano等高水平期刊发表论文80余篇，SCI引用4000余次，H因子30。<br/>
-                        <b>联系方式：</b><a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>
-                        &nbsp;<a href="http://www.researcherid.com/rid/F-3059-2010">ResearcherID</a>
-                        &nbsp;<a href="https://orcid.org/0000-0002-3995-9580">ORCID</a>
-                        &nbsp;<a href="https://scholar.google.com/citations?user=VZed7UgAAAAJ&hl=en">Google Scholar</a>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                        <span class="member_name">黎松林</span>
+                        <p style="font-size: 1rem;">
+                        副教授、博导、2016年青年千人。2003和2006年在重庆大学分别获得本科和硕士学位，2009年获得中科院物理研究所博士学位，2009-2016年分别在日本国家材料看科学研究所和法国斯特拉斯堡大学从事科研工作。主持或参与国家自然科学基金面上、国家重点研发计划课题等项目，在<i>Nat. Commun.</i>，<i>Nano Lett.</i> ，<i>ACS Nano</i>，<i>Adv. Mater.</i>, <i>Chem. Soc. Rev.</i>等高水平期刊发表论文80余篇，SCI引用4000余次，H因子30。 
+                        <br/>
+                        <b>科研成果：</b><a href="http://www.researcherid.com/rid/F-3059-2010" target="_blank">ResearcherID</a>
+                        &nbsp;<a href="https://orcid.org/0000-0002-3995-9580" target="_blank">ORCID</a>
+                        &nbsp;<a href="https://scholar.google.com/citations?user=VZed7UgAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                        <br/>
+                        <b>联系方式：</b><a href="mailto:sli@nju.edu.cn" target="_blank">sli@nju.edu.cn</a>&nbsp;
+                        <a href="http://api.map.baidu.com/marker?location=32.116786,118.967882&title=我的位置&content=南京大学电子科学与工程学院&output=html" target="_blank" title="显示提醒内容">南京大学电子学院433B</a>
                         </p>
-                    </div>
+                    </div> 
+                </div>
 
-                    <!-- 博士研究生简介，大屏幕一排两人，小屏幕一排一人-->
-                    <div class="category col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 30px;">
-                        <h5>博士研究生</h5>
-                        <div class="horiline"></div>
-                    </div>
+                <!-- 博士研究生简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member2" style="margin-top: 20px;">博士研究生</h2>
+                <div class="horiline"></div>
+                <div class="row">
 
-                    <!-- 博士1-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/lbx.jpg" width="110rem" class="mr-3" alt="梁斌熙">
+                    <!--博士一-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/xn.jpg" width="110rem" class="mr-3">
                         <div class="media-body">
-                            <p class="membername">梁斌熙</p>
-                            <p class="memberinfo"><b>学士</b><br/>江南大学</p>
-                            <p class="memberinfo">
-                                <b>研究兴趣</b><br/>微纳尺度器件电子输运
-                            </p>
-                        </div>
-                    </div>
-                    <!-- 博士2-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/jsh.jpg" width="110rem" class="mr-3" alt="居仕豪">
-                        <div class="media-body">
-                            <p class="membername">居仕豪</p>
-                            <p class="memberinfo"><b>学士</b><br/>南京大学</p>
-                            <p class="memberinfo">
-                                <b>研究兴趣</b><br/>二维材料高性能器件
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- 博士3-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/xn.jpg" width="110rem" class="mr-3" alt="徐宁">
-                        <div class="media-body">
-                            <p class="membername">徐宁</p>
-                            <p class="memberinfo"><b>学士</b><br/>东北大学</p>
-                            <p class="memberinfo">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">徐宁<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>学士</b><br/>东北大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
                                 <b>研究兴趣</b><br/>二维材料逐层刻蚀
-                            </p>
+                            </span>
                         </div>
                     </div>
-                    <!-- 博士4-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/zj.jpg" width="110rem" class="mr-3" alt="周健">
-                        <div class="media-body">
-                            <p class="membername">周健</p>
-                            <p class="memberinfo"><b>学士</b><br/>合肥工业大学</p>
-                            <p class="memberinfo">
-                                <b>研究兴趣</b><br/>二维材料逐层刻蚀
-                            </p>
-                        </div>
-                    </div>
+                    <!--博士一结束-->
 
-                    <!-- 博士5-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/tjc.jpg" width="110rem" class="mr-3" alt="唐家晨">
+                    <!--博士二-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/tjc.jpg" width="110rem" class="mr-3">
                         <div class="media-body">
-                            <p class="membername">唐家晨</p>
-                            <p class="memberinfo"><b>学士</b><br/>西安电子科技大学</p>
-                            <p class="memberinfo">   
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">唐家晨<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>学士</b><br/>西安电子科技大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
                                 <b>研究兴趣</b><br/>二维材料超短沟道器件
-                            </p>
+                            </span>
                         </div>
                     </div>
+                    <!--博士二结束-->
 
-                    <!-- 博士6-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/qlp.jpg" width="110rem" class="mr-3" alt="邱利鹏">
+                    <!--博士三-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/qlp.jpg" width="110rem" class="mr-3">
                         <div class="media-body">
-                            <p class="membername">邱利鹏</p>
-                            <p class="memberinfo"><b>硕士</b><br/>南京大学</p>
-                            <p class="memberinfo">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">邱利鹏<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>硕士</b><br/>南京大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
                                 <b>研究兴趣</b><br/>二维材料生长与器件表征
-                            </p>
+                            </span>
                         </div>
                     </div>
+                    <!--博士三结束-->
 
-                    <!-- 博士7-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/lsx.jpg" width="110rem" class="mr-3" alt="李帅星">
+                    <!--博士四-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/lsx.jpg" width="110rem" class="mr-3">
                         <div class="media-body">
-                            <p class="membername">李帅星</p>
-                            <p class="memberinfo"><b>学士</b><br/>东北大学</p>
-                            <p class="memberinfo">
-                                <b>研究兴趣</b><br/>磁性材料生长与器件表征
-                            </p>
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">李帅星<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>学士</b><br/>东北大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>研究兴趣</b><br/>二维材料超短沟道器件
+                            </span>
                         </div>
                     </div>
+                    <!--博士四结束-->
 
-                    <!-- 博士8-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/llh.jpg" width="110rem" class="mr-3" alt="刘陆豪">
+                    <!--博士五-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/llh.jpg" width="110rem" class="mr-3">
                         <div class="media-body">
-                            <p class="membername">刘陆豪</p>
-                            <p class="memberinfo"><b>学士</b><br/>南京大学</p>
-                            <p class="memberinfo">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">刘陆豪<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>学士</b><br/>南京大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
                                 <b>研究兴趣</b><br/>二维材料低温物性表征
-                            </p>
+                            </span>
                         </div>
                     </div>
-
-
-                    <!-- 硕士研究生简介，大屏幕一排两人，小屏幕一排一人-->
-                    <div class="category col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 30px;">
-                        <h5>硕士研究生</h5>
-                        <div class="horiline"></div>
-                    </div>
-                    <!-- 硕士1-->
-                    <div class="media col-lg-6 col-md-6 col-sm-12 col-12 member">
-                        <img src="./img/member/syj.jpg" width="110rem" class="mr-3" alt="邵印江">
-                        <div class="media-body">
-                            <p class="membername">邵印江</p>
-                            <p class="memberinfo"><b>学士</b><br/>南京大学</p>
-                            <p class="memberinfo">
-                                <b>研究兴趣</b><br/>二维材料低温物性表征
-                            </p>
-                        </div>
-                    </div>
-                    <!-- 毕业校友简介，不放照片-->
-                    <div class="category col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 30px;">
-                        <h5>已毕业成员</h5>
-                        <div class="horiline"></div>
-                    </div>
-                    <div class="media col-lg-12 col-md-12 col-sm-12 col-12">
-                        <ul class="list-unstyled " id="alumnilist">
-                            <li class="membername">王安健
-                                <ul>
-                                    <li class="memberinfo">2021届硕士，黄冈市公务员</li>
-                                </ul>
-                            </li>
-                        </ul>                        
-                    </div>
+                    <!--博士五结束-->
 
                 </div>
+
+                <!-- 硕士研究生简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member3" style="margin-top: 20px;">硕士研究生</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                    <!--硕士一-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/syj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">邵印江<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>学士</b><br/>南京大学<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo">
+                                <b>研究兴趣</b><br/>二维材料低温物性表征
+                            </span>
+                        </div>
+                    </div>
+                    <!--硕士一结束-->
+                </div>
+
+                <!-- 已毕业成员简介，大屏幕一排三人，小屏幕一排一人-->
+                <h2 id="member4" style="margin-top: 20px;">已毕业成员</h2>
+                <div class="horiline"></div>
+                <div class="row">
+
+                    <!--开始-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/jsh.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">居仕豪<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>博士</b><br/>2022届<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>工作去向</b><br/>华为海思</span>
+                        </div>
+                    </div>
+                    <!--结束-->
+
+                    <!--开始-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/lbx.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">梁斌熙<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>博士</b><br/>2022届<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>工作去向</b><br/>长鑫存储</span>
+                        </div>
+                    </div>
+                    <!--结束-->
+
+                    <!--开始-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/lx.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">罗昕<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>博士</b><br/>2022届<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>工作去向</b><br/>仁烁光能</span>
+                        </div>
+                    </div>
+                    <!--结束-->
+
+                    <!--开始-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/zj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">周健<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>博士</b><br/>2022届<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>工作去向</b><br/>华为海思</span>
+                        </div>
+                    </div>
+                    <!--结束-->
+
+
+                    <!--开始-->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 media member">
+                        <img src="./img/member/old/waj.jpg" width="110rem" class="mr-3">
+                        <div class="media-body">
+                            <div style="height: 10px;"></div>
+                            <span class="member_name">王安健<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>硕士</b><br/>2021届<br/></span>
+                            <div style="height: 10px;"></div>
+                            <span class="memberinfo"><b>工作去向</b><br/>国家公务员</span>
+                        </div>
+                    </div>
+                    <!--结束-->
+
+                </div>
+
+
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="sm-none-zj sidebar">
+                    <ul>
+                        <li ><a href="#member1">课题组负责人</a></li>
+                        <li ><a href="#member2">博士研究生</a></li>
+                        <li ><a href="#member3">硕士研究生</a></li>
+                        <li ><a href="#member4">已毕业成员</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 

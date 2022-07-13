@@ -1,4 +1,4 @@
-@Article{Li2022,
+@Article{Li2022CoM,
   author  = {Li, Shuaixing and Wu, Jianghua and Liang, Binxi and Liu, Luhao and Zhang, Wei and Wazir, Nasrullah and Zhou, Jian and Liu, Yuwei and Nie, Yuefeng and Hao, Yufeng and Wang, Peng and Wang, Lin and Shi, Yi and Li, Songlin},
   journal = {Chemistry of Materials},
   title   = {Antiferromagnetic {\alpha-MnTe}: {Molten-Salt-Assisted} {Chemical Vapor Deposition} {Growth} and {Magneto-Transport} {Properties}},
@@ -12,7 +12,7 @@
   groups  = {2022},
 }
 
-@Article{Zhao2022,
+@Article{Zhao2022NL,
   author  = {Zhao, Zijing and Zhou, Jian and Liu, Luhao and Liu, Nanshu and Huang, Jianqi and Zhang, Biao and Li, Wei and Zeng, Yi and Zhang, Teng and Ji, Wei and Yang, Teng and Zhang, Zhidong and Li, Songlin and Hou, Yanglong},
   journal = {Nano Letters},
   title   = {{Two-Dimensional} {Room-Temperature} {Magnetic} {Nonstoichiometric} {Fe\textsubscript{7}Se\textsubscript{8}} {Nanocrystals}: {Controllable} {Synthesis} and {Magnetic} {Behavior}},
@@ -26,7 +26,7 @@
   groups  = {2022},
 }
 
-@Article{Xu2021,
+@Article{Xu2021APL,
   author  = {Xu, Zuyu and Chen, Wei and Huang, Junwei and Tian, Wanghao and Chen, Shixian and Yue, Wencheng and Chi, Tianyuan and Lyu, Yang-Yang and Sun, Hancong and Wang, Yong-Lei and Sun, Guozhu and Chen, Jian and Jin, Biaobing and Li, Song-Lin and Yuan, Hongtao and Li, Jun and Koelle, Dieter and Kleiner, Reinhold and Wang, Huabing and Wu, Peiheng},
   journal = {Applied Physics Letters},
   title   = {Vertical {Josephson} field-effect transistors based on black phosphorus},
@@ -40,7 +40,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Wang2021,
+@Article{Wang2021PRM,
   author  = {Wang, Ting-Ting and Dong, Sining and Xiao, Zhi-Li and Li, Chong and Yue, Wen-Cheng and Liang, Bin-Xi and Xu, Fei-Fan and Wang, Yong-Lei and Xu, Sheng-Rui and Lu, Xiao-Li and Li, Jianhua and Wang, Chenguang and Yuan, Zixiong and Li, Song-Lin and Sun, Guo-Zhu and Liu, Bin and Lu, Hai and Wang, Hua-Bing and Kwok, Wai-Kwong},
   journal = {Physical Review Materials},
   title   = {Interface roughness governed negative magnetoresistances in two-dimensional electron gases in {AlGaN/GaN} heterostructures},
@@ -54,11 +54,12 @@
   groups  = {2021-2017},
 }
 
-@Article{Wang2021b,
+@Article{Wang2021APL,
   author  = {Wang, Anran and Wang, Yuhan and Li, Jianfei and Xu, Ning and Li, Songlin and Wang, Xinran and Shi, Yi and Wang, Fengqiu},
   journal = {Applied Physics Letters},
   title   = {Controlling relaxation dynamics of excitonic states in monolayer transition metal dichalcogenides {WS\textsubscript{2}} through interface engineering},
   year    = {2021},
+  issn    = {0003-6951},
   month   = mar,
   note    = {20210300},
   number  = {12},
@@ -66,10 +67,9 @@
   volume  = {118},
   doi     = {10.1063/5.0043758},
   groups  = {2021-2017},
-  issn    = {0003-6951},
 }
 
-@Article{Zhang2020,
+@Article{Zhang2020OE,
   author  = {Zhang, Dakuan and Yin, Yao and Lv, Wei and Gao, Fan and Pan, Danfeng and Sun, Huabin and Xu, Yong and Ju, Shihao and Li, Songlin and Shi, Yi},
   journal = {Organic Electronics},
   title   = {Suppressing off-state current via molecular orientation in submicrometer polymer field-effect transistors},
@@ -82,7 +82,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Luo2020,
+@Article{Luo2020SR,
   author  = {Luo, Xin and Gao, Yuan and Zhu, Pengchen and Han, Qiaolei and Lin, Renxing and Gao, Han and Wang, Yurui and Zhu, Jia and Li, Songlin and Tan, Hairen},
   journal = {Solar RRL},
   title   = {Record {Photocurrent} {Density} over 26 {mA} cm\textsuperscript{-2} in {Planar} {Perovskite} {Solar} {Cells} {Enabled} by {Antireflective} {Cascaded} {Electron} {Transport} {Layer}},
@@ -96,7 +96,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Xu2020,
+@Article{Xu2020AFM,
   author  = {Xu, Yong and Li, Yun and Li, Songlin and Balestra, Francis and Ghibaudo, Gerard and Li, Wenwu and Lin, Yen-Fu and Sun, Huabin and Wan, Jing and Wang, Xinran and Guo, Yufeng and Shi, Yi and Noh, Yong-Young},
   journal = {Advanced Functional Materials},
   title   = {Precise Extraction of Charge Carrier Mobility for Organic Transistors},
@@ -110,7 +110,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Zhang2020b,
+@Article{Zhang2020IEDL,
   author  = {Zhang, Dakuan and Yin, Yao and Lv, Wei and Gao, Fan and Pan, Danfeng and Tu, Xuecou and Ju, Shihao and Su, Xin and Ma, Xuezhi and Sun, Huabin and Xu, Yong and Li, Songlin and Shi, Yi},
   journal = {IEEE Electron Device Letters},
   title   = {Sharply {Increased} {Current} in {Asymmetrically} {Aligned} {Polycrystalline} {Polymer} {Transistors} {With} {Sub-Domain-Size} {Channels}},
@@ -124,7 +124,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Zhu2020,
+@Article{Zhu2020AEM,
   author  = {Zhu, Pengchen and Gu, Shuai and Luo, Xin and Gao, Yuan and Li, Songlin and Zhu, Jia and Tan, Hairen},
   journal = {Advanced Energy Materials},
   title   = {Simultaneous Contact and Grain-Boundary Passivation in Planar Perovskite Solar Cells Using SnO\textsubscript{2}-KCl Composite Electron Transport Layer},
@@ -138,7 +138,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Yang2019,
+@Article{Yang2019AAM&I,
   author  = {Yang, Ruilong and Liu, Lixuan and Feng, Shanghuai and Liu, Yujie and Li, Songlin and Zhai, Kun and Xiang, Jianyong and Mu, Congpu and Nie, Anmin and Wen, Fusheng and Wang, Bochong and Zhang, Guangyu and Gong, Yongji and Zhao, Zhisheng and Tian, Yongjun and Liu, Zhongyuan},
   journal = {ACS Applied Materials & Interfaces},
   title   = {{One-Step} {Growth} of {Spatially} {Graded} {Mo\textsubscript{1-x}W\textsubscript{x}S\textsubscript{2}} {Monolayers} with a {Wide} {Span} in {Composition} (from x = 0 to 1) at a {Large} {Scale}},
@@ -152,7 +152,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Chen2019,
+@Article{Chen2019SSaT,
   author  = {Chen, Wei and Xu, Zuyu and Tian, Wanghao and Lv, Yangyang and Yu, Mei and Zhou, Xianjing and Tu, Xuecou and Wu, Jingbo and Li, Jun and Li, Songlin and Jin, Biaobing and Xu, Weiwei and Koelle, Dieter and Kleiner, Reinhold and Wang, Huabing and Wu, Peiheng},
   journal = {Superconductor Science and Technology},
   title   = {High-quality in situ fabricated Nb Josephson junctions with black phosphorus barriers},
@@ -166,7 +166,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Li2019,
+@Article{Li2019AN,
   author  = {Li, Song-Lin and Zhang, Lei and Zhong, Xiaolan and Gobbi, Marco and Bertolazzi, Simone and Guo, Wei and Wu, Bin and Liu, Yunqi and Xu, Ning and Niu, Weiyu and Hao, Yufeng and Orgiu, Emanuele and Samorì, Paolo},
   journal = {ACS Nano},
   title   = {Nano-Subsidence-Assisted Precise Integration of Patterned Two-Dimensional Materials for High-Performance Photodetector Arrays},
@@ -180,7 +180,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Qian2019,
+@Article{Qian2019AMT,
   author   = {Qian, Jun and Jiang, Sai and Li, Songlin and Wang, Xinran and Shi, Yi and Li, Yun},
   journal  = {Advanced Materials Technologies},
   title    = {Solution-Processed 2D Molecular Crystals: Fabrication Techniques, Transistor Applications, and Physics},
@@ -195,7 +195,7 @@
   keywords = {2D molecular crystals, organic field-effect transistors, solution processed},
 }
 
-@Article{Ju2018,
+@Article{Ju2018OC,
   author   = {Ju, Shihao and Liang, Binxi and Wang, Jun-Zhuan and Shi, Yi and Li, Song-Lin},
   journal  = {Optics Communications},
   title    = {Graphene/silicon Schottky solar cells: Technical strategies for performance optimization},
@@ -209,7 +209,7 @@
   keywords = {Photovoltaics, Solar cell, Schottky junction, Silicon, Graphene, Power conversion efficiency},
 }
 
-@Article{Sun2018,
+@Article{Sun2018N,
   author  = {Sun, Yuanhui and Luo, Shulin and Zhao, Xin-Gang and Biswas, Koushik and Li, Song-Lin and Zhang, Lijun},
   journal = {Nanoscale},
   title   = {InSe: a two-dimensional material with strong interlayer coupling},
@@ -223,7 +223,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Zhang2017,
+@Article{Zhang2017JotACS,
   author  = {Zhang, Lei and Li, Songlin and Squillaci, Marco A. and Zhong, Xiaolan and Yao, Yifan and Orgiu, Emanuele and Samorì, Paolo},
   journal = {Journal of the American Chemical Society},
   title   = {Supramolecular Self-Assembly in a Sub-micrometer Electrodic Cavity: Fabrication of Heat-Reversible π-Gel Memristor},
@@ -237,7 +237,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Da2017,
+@Article{Da2017NC,
   author  = {Da, Bo and Liu, Jiangwei and Yamamoto, Mahito and Ueda, Yoshihiro and Watanabe, Kazuyuki and Cuong, Nguyen Thanh and Li, Songlin and Tsukagoshi, Kazuhito and Yoshikawa, Hideki and Iwai, Hideo and Tanuma, Shigeo and Guo, Hongxuan and Gao, Zhaoshun and Sun, Xia and Ding, Zejun},
   journal = {Nature Communications},
   title   = {Virtual substrate method for nanomaterials characterization},
@@ -251,7 +251,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Yu2017,
+@Article{Yu2017AFM,
   author   = {Yu, Zhihao and Ong, Zhun-Yong and Li, Songlin and Xu, Jian-Bin and Zhang, Gang and Zhang, Yong-Wei and Shi, Yi and Wang, Xinran},
   journal  = {Advanced Functional Materials},
   title    = {Analyzing the Carrier Mobility in Transition-Metal Dichalcogenide MoS\textsubscript{2} Field-Effect Transistors},
@@ -266,7 +266,7 @@
   keywords = {carrier mobilities, Coulomb impurities, field-effect transistors, MoS2, transition-metal dichalcogenides},
 }
 
-@Article{Feng2017,
+@Article{Feng20172M,
   author  = {Feng, Haifeng and Zhuang, Jincheng and Slattery, Ashley D. and Wang, Liang and Xu, Zhongfei and Xu, Xun and Mitchell, David and Zheng, Tian and Li, Songlin and Higgins, Michael and Ren, Long and Sun, Ziqi and Dou, Shi Xue and Du, Yi and Hao, Weichang},
   journal = {2D Materials},
   title   = {Construction of 2D lateral pseudoheterostructures by strain engineering},
@@ -279,7 +279,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Zhang2017b,
+@Article{Zhang2017AM,
   author  = {Zhang, Lei and Pavlica, Egon and Zhong, Xiaolan and Liscio, Fabiola and Li, Songlin and Bratina, Gvido and Orgiu, Emanuele and Samorì, Paolo},
   journal = {Advanced Materials},
   title   = {Fast-Response Photonic Device Based on Organic-Crystal Heterojunctions Assembled into a Vertical-Yet-Open Asymmetric Architecture},
@@ -293,7 +293,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Jia2017,
+@Article{Jia2017N,
   author  = {Jia, Zhiyan and Li, Songlin and Xiang, Jianyong and Wen, Fusheng and Bao, Xuan and Feng, Shanghuai and Yang, Ruilong and Liu, Zhongyuan},
   journal = {Nanoscale},
   title   = {Highly sensitive and fast monolayer WS\textsubscript{2} phototransistors realized by SnS nanosheet decoration},
@@ -306,7 +306,7 @@
   groups  = {2021-2017},
 }
 
-@Article{Zhang2016,
+@Article{Zhang2016NN,
   author  = {Zhang, Lei and Zhong, Xiaolan and Pavlica, Egon and Li, Songlin and Klekachev, Alexander and Bratina, Gvido and Ebbesen, Thomas W. and Orgiu, Emanuele and Samorì, Paolo},
   journal = {Nature Nanotechnology},
   title   = {A nanomesh scaffold for supramolecular nanowire optoelectronic devices},
@@ -319,7 +319,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2016,
+@Article{Li2016CSR,
   author  = {Li, Song-Lin and Tsukagoshi, Kazuhito and Orgiu, Emanuele and Samorì, Paolo},
   journal = {Chemical Society Reviews},
   title   = {Charge transport and mobility engineering in two-dimensional transition metal chalcogenide semiconductors},
@@ -332,7 +332,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Wang2016,
+@Article{Wang2016NL,
   author  = {Wang, Shaojun and Li, Songlin and Chervy, Thibault and Shalabney, Atef and Azzini, Stefano and Orgiu, Emanuele and Hutchison, James A. and Genet, Cyriaque and Samorì, Paolo and Ebbesen, Thomas W.},
   journal = {Nano Letters},
   title   = {Coherent Coupling of WS\textsubscript{2} Monolayers with Metallic Photonic Nanostructures at Room Temperature},
@@ -346,7 +346,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2015,
+@Article{Li2015JotPSoJ,
   author  = {Li, Song-Lin and Tsukagoshi, Kazuhito},
   journal = {Journal of the Physical Society of Japan},
   title   = {Carrier Injection and Scattering in Atomically Thin Chalcogenides},
@@ -360,7 +360,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Nakaharai2015,
+@Article{Nakah2015AN,
   author  = {Nakaharai, Shu and Yamamoto, Mahito and Ueno, Keiji and Lin, Yen-Fu and Li, Song-Lin and Tsukagoshi, Kazuhito},
   journal = {ACS Nano},
   title   = {Electrostatically Reversible Polarity of Ambipolar \alpha-MoTe\textsubscript{2} Transistors},
@@ -374,7 +374,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Wang2015,
+@Article{Wang2015S,
   author  = {Wang, Jingli and Li, Songlin and Zou, Xuming and Ho, Johnny and Liao, Lei and Xiao, Xiangheng and Jiang, Changzhong and Hu, Weida and Wang, Jianlu and Li, Jinchai},
   journal = {Small},
   title   = {Integration of High-k Oxide on MoS\textsubscript{2} by Using Ozone Pretreatment for High-Performance MoS2 Top-Gated Transistor with Thickness-Dependent Carrier Scattering Investigation},
@@ -388,7 +388,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Nakaharai2014,
+@Article{Nakah2014IToN,
   author  = {Nakaharai, Shu and Iijima, Tomohiko and Ogawa, Shinichi and Li, Song-Lin and Tsukagoshi, Kazuhito and Sato, Shintaro and Yokoyama, Naoki},
   journal = {IEEE Transactions on Nanotechnology},
   title   = {Electrostatically Reversible Polarity of Dual-Gated Graphene Transistors},
@@ -401,7 +401,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Komatsu2014,
+@Article{Komat2014APE,
   author  = {Komatsu, Katsuyoshi and Kasai, Shinya and Li, Song-Lin and Nakaharai, Shu and Mitoma, Nobuhiko and Yamamoto, Mahito and Tsukagoshi, Kazuhito},
   journal = {Applied Physics Express},
   title   = {Spin injection and detection in a graphene lateral spin valve using an yttrium-oxide tunneling barrier},
@@ -414,7 +414,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Tian2014,
+@Article{Tian2014AM,
   author  = {Tian, Wei and Zhang, Chao and Zhai, Tianyou and Li, Song-Lin and Wang, Xi and Liu, Jiangwei and Jie, Xiao and Liu, Dequan and Liao, Meiyong and Koide, Yasuo and Golberg, Dmitri and Bando, Yoshio},
   journal = {Advanced Materials},
   title   = {Flexible Ultraviolet Photodetectors with Broad Photoresponse Based on Branched ZnS-ZnO Heterostructure Nanofilms},
@@ -428,7 +428,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Yamamoto2014,
+@Article{Yamam2014AN,
   author  = {Yamamoto, Mahito and Wang, Sheng Tsung and Ni, Meiyan and Lin, Yen-Fu and Li, Song-Lin and Aikawa, Shinya and Jian, Wen-Bin and Ueno, Keiji and Wakabayashi, Katsunori and Tsukagoshi, Kazuhito},
   journal = {ACS Nano},
   title   = {Strong Enhancement of Raman Scattering from a Bulk-Inactive Vibrational Mode in Few-Layer MoTe\textsubscript{2}},
@@ -442,7 +442,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Lin2014,
+@Article{Lin2014AM,
   author  = {Lin, Yen-Fu and Xu, Yong and Wang, Sheng-Tsung and Li, Song-Lin and Yamamoto, Mahito and Aparecido-Ferreira, Alex and Li, Wenwu and Sun, Huabin and Nakaharai, Shu and Jian, Wen-Bin and Ueno, Keiji and Tsukagoshi, Kazuhito},
   journal = {Advanced Materials},
   title   = {Ambipolar MoTe\textsubscript{2} Transistors and Their Applications in Logic Circuits},
@@ -456,7 +456,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Lin2014b,
+@Article{Lin2014N,
   author  = {Lin, Yen-Fu and Li, Wenwu and Li, Song-Lin and Xu, Yong and Aparecido-Ferreira, Alex and Komatsu, Katsuyoshi and Sun, Huabin and Nakaharai, Shu and Tsukagoshi, Kazuhito},
   journal = {Nanoscale},
   title   = {Barrier inhomogeneities at vertically stacked graphene-based heterostructures},
@@ -469,7 +469,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Zhang2014,
+@Article{Zhang2014N,
   author  = {Zhang, Chao and Tian, Wei and Xu, Zhi and Wang, Xi and Liu, Jiangwei and Li, Song-Lin and Tang, Dai-Ming and Liu, Dequan and Liao, Meiyong and Bando, Yoshio and Golberg, Dmitri},
   journal = {Nanoscale},
   title   = {Photosensing performance of branched CdS/ZnO heterostructures as revealed by in situ TEM and photodetector tests},
@@ -482,7 +482,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Tsukagoshi2014,
+@Article{Tsuka2014JoPDAP,
   author  = {Tsukagoshi, K. and Li, S.-L. and Miyazaki, H. and Aparecido-Ferreira, A. and Nakaharai, S.},
   journal = {Journal of Physics D: Applied Physics},
   title   = {Semiconducting properties of bilayer graphene modulated by an electric field for next-generation atomic-film electronics},
@@ -495,7 +495,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2014,
+@Article{Li2014AN,
   author  = {Li, Song-Lin and Komatsu, Katsuyoshi and Nakaharai, Shu and Lin, Yen-Fu and Yamamoto, Mahito and Duan, Xiangfeng and Tsukagoshi, Kazuhito},
   journal = {ACS Nano},
   title   = {Thickness Scaling Effect on Interfacial Barrier and Electrical Contact to Two-Dimensional MoS\textsubscript{2} Layers},
@@ -509,7 +509,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Nakaharai2013,
+@Article{Nakah2013AN,
   author  = {Nakaharai, Shu and Iijima, Tomohiko and Ogawa, Shinichi and Suzuki, Shingo and Li, Song-Lin and Tsukagoshi, Kazuhito and Sato, Shintaro and Yokoyama, Naoki},
   journal = {ACS Nano},
   title   = {Conduction Tuning of Graphene Based on Defect-Induced Localization},
@@ -523,7 +523,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Wu2013,
+@Article{Wu2013CPB,
   author  = {Wu, Zhan-Wen and Li, Jie and Li, Song-Lin and Zheng, Dong-Ning},
   journal = {Chinese Physics B},
   title   = {Field-induced insulator--metal--insulator transitions in low-energy H\textsuperscript{+}\textsubscript{2} ion-irradiated epitaxial La\textsubscript{2/3}Ca\textsubscript{1/3}MnO\textsubscript{3} thin films},
@@ -536,7 +536,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Song2013,
+@Article{Song2013N,
   author  = {Song, H. S. and Li, S. L. and Gao, L. and Xu, Y. and Ueno, K. and Tang, J. and Cheng, Y. B. and Tsukagoshi, K.},
   journal = {Nanoscale},
   title   = {High-performance top-gated monolayer SnS\textsubscript{2} field-effect transistors and their integrated logic circuits},
@@ -549,7 +549,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Tian2013,
+@Article{Tian2013CC,
   author  = {Tian, Wei and Zhang, Chao and Zhai, Tianyou and Li, Song-Lin and Wang, Xi and Liao, Meiyong and Tsukagoshi, Kazuhito and Golberg, Dmitri and Bando, Yoshio},
   journal = {Chemical Communications},
   title   = {Flexible SnO\textsubscript{2} hollow nanosphere film based high-performance ultraviolet photodetector},
@@ -562,7 +562,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Xu2013,
+@Article{Xu2013OE,
   author   = {Xu, Yong and Liu, Chuan and Scheideler, William and Darmawan, Peter and Li, Songlin and Balestra, Francis and Ghibaudo, Gerard and Tsukagoshi, Kazuhito},
   journal  = {Organic Electronics},
   title    = {How small the contacts could be optimal for nanoscale organic transistors?},
@@ -576,7 +576,7 @@
   keywords = {Charge injection, Contact length, Contact resistance, Charge transport, Organic transistors},
 }
 
-@Article{Zhou2022,
+@Article{Zhou2022NC,
   author  = {Zhou, Jian and Zhang, Chunchen and Shi, Li and Chen, Xiaoqing and Kim, Tae Soo and Gyeon, Minseung and Chen, Jian and Wang, Jinlan and Yu, Linwei and Wang, Xinran and Kang, Kibum and Orgiu, Emanuele and Samorì, Paolo and Watanabe, Kenji and Taniguchi, Takashi and Tsukagoshi, Kazuhito and Wang, Peng and Shi, Yi and Li, Songlin},
   journal = {Nature Communications},
   title   = {Non-invasive digital etching of van der {Waals} semiconductors},
@@ -590,7 +590,7 @@
   groups  = {2022},
 }
 
-@Article{Tian2013b,
+@Article{Tian2013AM,
   author  = {Tian, Wei and Zhai, Tianyou and Zhang, Chao and Li, Song-Lin and Wang, Xi and Liu, Fei and Liu, Dequan and Cai, Xingke and Tsukagoshi, Kazuhito and Golberg, Dmitri and Bando, Yoshio},
   journal = {Advanced Materials},
   title   = {Low-Cost Fully Transparent Ultraviolet Photodetectors Based on Electrospun ZnO-SnO\textsubscript{2} Heterojunction Nanofibers},
@@ -604,7 +604,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2013,
+@Article{Li2013APL,
   author  = {Li, Wenwu and Li, Song-Lin and Komatsu, Katsuyoshi and Aparecido-Ferreira, Alex and Lin, Yen-Fu and Xu, Yong and Osada, Minoru and Sasaki, Takayoshi and Tsukagoshi, Kazuhito},
   journal = {Applied Physics Letters},
   title   = {Realization of graphene field-effect transistor with high-{\kappa} HCa\textsubscript{2}Nb\textsubscript{3}O\textsubscript{10} nanoflake as top-gate dielectric},
@@ -618,7 +618,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Chan2013,
+@Article{Chan2013N,
   author  = {Chan, Mei Yin and Komatsu, Katsuyoshi and Li, Song-Lin and Xu, Yong and Darmawan, Peter and Kuramochi, Hiromi and Nakaharai, Shu and Aparecido-Ferreira, Alex and Watanabe, Kenji and Taniguchi, Takashi and Tsukagoshi, Kazuhito},
   journal = {Nanoscale},
   title   = {Suppression of thermally activated carrier transport in atomically thin MoS\textsubscript{2} on crystalline hexagonal boron nitride substrates},
@@ -631,7 +631,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2013b,
+@Article{Li2013NL,
   author  = {Li, Song-Lin and Wakabayashi, Katsunori and Xu, Yong and Nakaharai, Shu and Komatsu, Katsuyoshi and Li, Wen-Wu and Lin, Yen-Fu and Aparecido-Ferreira, Alex and Tsukagoshi, Kazuhito},
   journal = {Nano Letters},
   title   = {Thickness-Dependent Interfacial Coulomb Scattering in Atomically Thin Field-Effect Transistors},
@@ -645,7 +645,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Xu2013b,
+@Article{Xu2013IEDL,
   author  = {Xu, Yong and Liu, Chuan and Scheideler, William and Li, Songlin and Li, Wenwu and Lin, Yen-Fu and Balestra, Francis and Ghibaudo, Gerard and Tsukagoshi, Kazuhito},
   journal = {IEEE Electron Device Letters},
   title   = {Understanding Thickness-Dependent Charge Transport in Pentacene Transistors by Low-Frequency Noise},
@@ -658,7 +658,7 @@
   groups  = {2016-2013},
 }
 
-@Article{Li2012,
+@Article{Li2012AN,
   author  = {Li, Song-Lin and Miyazaki, Hisao and Song, Haisheng and Kuramochi, Hiromi and Nakaharai, Shu and Tsukagoshi, Kazuhito},
   journal = {ACS Nano},
   title   = {Quantitative Raman Spectrum and Reliable Thickness Identification for Atomic Layers on Insulating Substrates},
@@ -672,7 +672,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Darmawan2012,
+@Article{Darma2012AFM,
   author  = {Darmawan, Peter and Minari, Takeo and Xu, Yong and Li, Song-Lin and Song, Haisheng and Chan, Meiyin and Tsukagoshi, Kazuhito},
   journal = {Advanced Functional Materials},
   title   = {Optimal Structure for High-Performance and Low-Contact-Resistance Organic Field-Effect Transistors Using Contact-Doped Coplanar and Pseudo-Staggered Device Architectures},
@@ -686,7 +686,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Miyazaki2012,
+@Article{Miyaz2012APL,
   author  = {Miyazaki, Hisao and Li, Song-Lin and Nakaharai, Shu and Tsukagoshi, Kazuhito},
   journal = {Applied Physics Letters},
   title   = {Unipolar transport in bilayer graphene controlled by multiple p-n interfaces},
@@ -700,7 +700,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Song2012,
+@Article{Song2012SR,
   author  = {Song, H. S. and Li, S. L. and Miyazaki, H. and Sato, S. and Hayashi, K. and Yamada, A. and Yokoyama, N. and Tsukagoshi, K.},
   journal = {Scientific Reports},
   title   = {Origin of the relatively low transport mobility of graphene grown through chemical vapor deposition},
@@ -713,7 +713,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Nakaharai2011,
+@Article{Nakah2011APE,
   author  = {Nakaharai, Shu and Iijima, Tomohiko and Ogawa, Shinichi and Miyazaki, Hisao and Li, Songlin and Tsukagoshi, Kazuhito and Sato, Shintaro and Yokoyama, Naoki},
   journal = {Applied Physics Express},
   title   = {Gate-Controlled P-I-N Junction Switching Device with Graphene Nanoribbon},
@@ -726,7 +726,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Miyazaki2011,
+@Article{Miyaz2011JotPSoJ,
   author  = {Miyazaki, Hisao and V. Lee, Michael and Li, Song-Lin and Hiura, Hidefumi and Kanda, Akinobu and Tsukagoshi, Kazuhito},
   journal = {Journal of the Physical Society of Japan},
   title   = {Observation of Tunneling Current in Semiconducting Graphene p-n Junctions},
@@ -740,7 +740,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Kuramochi2012,
+@Article{Kuram2012AA,
   author  = {Kuramochi, H. and Odaka, S. and Morita, K. and Tanaka, S. and Miyazaki, H. and Lee, M. V. and Li, S.-L. and Hiura, H. and Tsukagoshi, K.},
   journal = {AIP Advances},
   title   = {Role of atomic terraces and steps in the electron transport properties of epitaxial graphene grown on SiC},
@@ -754,7 +754,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Zhang2012,
+@Article{Zhang2012APL,
   author  = {Zhang, Yu and Li, Song-Lin and Li, Jie and Deng, Hui and Cui, Li-Min and Zheng, Dong-Ning},
   journal = {Applied Physics Letters},
   title   = {Controllable formation of resistive switching filaments by low-energy H\textsuperscript{+} irradiation in transition-metal oxides},
@@ -768,7 +768,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Liu2012,
+@Article{Liu2012OE,
   author  = {Liu, Chuan and Li, Yun and Xu, Yong and Minari, Takeo and Li, Songlin and Takimiya, Kazuo and Tsukagoshi, Kazuhito},
   journal = {Organic Electronics},
   title   = {Controlling the crystal formation in solution-process for organic field-effect transistors with high-performance},
@@ -781,7 +781,7 @@
   groups  = {2012-2011},
 }
 
-@Article{AparecidoFerreira2012,
+@Article{Apare2012N,
   author  = {Aparecido-Ferreira, Alex and Miyazaki, Hisao and Li, Song-Lin and Komatsu, Katsuyoshi and Nakaharai, Shu and Tsukagoshi, Kazuhito},
   journal = {Nanoscale},
   title   = {Enhanced current-rectification in bilayer graphene with an electrically tuned sloped bandgap},
@@ -794,7 +794,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Tian2012,
+@Article{Tian2012N,
   author  = {Tian, Wei and Zhi, Chunyi and Zhai, Tianyou and Wang, Xi and Liao, Meiyong and Li, Songlin and Chen, Shimou and Golberg, Dmitri and Bando, Yoshio},
   journal = {Nanoscale},
   title   = {Ultrahigh quantum efficiency of CuO nanoparticle decorated In\textsubscript{2}Ge\textsubscript{2}O\textsubscript{7} nanobelt deep-ultraviolet photodetectors},
@@ -807,7 +807,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Li2011,
+@Article{Li2011S,
   author  = {Li, Song-Lin and Miyazaki, Hisao and Lee, Michael V. and Liu, Chuan and Kanda, Akinobu and Tsukagoshi, Kazuhito},
   journal = {Small},
   title   = {Complementary-Like Graphene Logic Gates Controlled by Electrostatic Doping},
@@ -821,7 +821,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Li2011b,
+@Article{Li2011APA,
   author  = {Li, Song-Lin and Li, Jie and Zhang, Yu and Zheng, Dong-Ning and Tsukagoshi, Kazuhito},
   journal = {Applied Physics A},
   title   = {Unipolar resistive switching in high-resistivity Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3} junctions},
@@ -834,7 +834,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Wang2011,
+@Article{Wang2011APA,
   author  = {Wang, P. and Li, J. and Lang, P. L. and Li, S. L. and Chu, H. F. and Xie, T. Y. and Zheng, D. N.},
   journal = {Applied Physics A},
   title   = {Highly oriented La\textsubscript{2/3}Ca\textsubscript{1/3}MnO\textsubscript{3} films grown on silicon-on-insulator substrates by pulsed laser deposition},
@@ -847,7 +847,7 @@
   groups  = {2012-2011},
 }
 
-@Article{Li2011c,
+@Article{Li2011AN,
   author  = {Li, Song-Lin and Miyazaki, Hisao and Hiura, Hidefumi and Liu, Chuan and Tsukagoshi, Kazuhito},
   journal = {ACS Nano},
   title   = {Enhanced Logic Performance with Semiconducting Bilayer Graphene Channels},
@@ -861,11 +861,12 @@
   groups  = {2012-2011},
 }
 
-@Article{Chu2010,
+@Article{Chu2010APS,
   author    = {Chu, Hai-Feng and Li, Jie and Li, Shao and Li, Song-Lin and Wang, Jia and Gao, Yan-Li and Deng, Hui and Wang, Ning and Zhang, Yu and Wu, Yu-Lin and Zheng, Dong-Ning},
   journal   = {Acta Physica Sinica},
   title     = {Glassy magnetic behaviors in oxygen-deficient Sr$_2$CoO\textsubscript{4-\delta} films},
   year      = {2010},
+  issn      = {1000-3290},
   month     = sep,
   note      = {20100915},
   number    = {9},
@@ -873,11 +874,10 @@
   volume    = {59},
   doi       = {10.7498/aps.59.6585},
   groups    = {2010-2008},
-  issn      = {1000-3290},
   unique-id = {ISI:000281449800104},
 }
 
-@Article{Li2010,
+@Article{Li2010NL,
   author  = {Li, Song-Lin and Miyazaki, Hisao and Kumatani, Akichika and Kanda, Akinobu and Tsukagoshi, Kazuhito},
   journal = {Nano Letters},
   title   = {Low Operating Bias and Matched Input−Output Characteristics in Graphene Logic Inverters},
@@ -891,7 +891,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Miyazaki2010,
+@Article{Miyaz2010SSaT,
   author  = {Miyazaki, Hisao and Li, Songlin and Kanda, Akinobu and Tsukagoshi, Kazuhito},
   journal = {Semiconductor Science and Technology},
   title   = {Resistance modulation of multilayer graphene controlled by the gate electric field},
@@ -904,7 +904,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Odaka2010,
+@Article{Odaka2010APL,
   author  = {Odaka, S. and Miyazaki, H. and Li, S.-L. and Kanda, A. and Morita, K. and Tanaka, S. and Miyata, Y. and Kataura, H. and Tsukagoshi, K. and Aoyagi, Y.},
   journal = {Applied Physics Letters},
   title   = {Anisotropic transport in graphene on SiC substrate with periodic nanofacets},
@@ -918,7 +918,7 @@
   groups  = {2010-2008},
 }
 
-@Article{JianLei2010,
+@Article{JianL2010CPL,
   author  = {Jian-Lei, Gang and Song-Lin, Li and Zhao-Liang, Liao and Yang, Meng and Xue-Jin, Liang and Dong-Min, Chen},
   journal = {Chinese Physics Letters},
   title   = {Clockwise vs Counter-Clockwise {I--V} Hysteresis of Point-Contact Metal-Tip/Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3}/Pt Devices},
@@ -931,7 +931,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2010b,
+@Article{Li2010JoPCM,
   author  = {Li, J. and Li, S. L. and Wu, Z. W. and Li, S. and Chu, H. F. and Wang, J. and Zhang, Y. and Tian, H. Y. and Zheng, D. N.},
   journal = {Journal of Physics: Condensed Matter},
   title   = {A phenomenological approach to the anisotropic magnetoresistance and planar Hall effect in tetragonal La\textsubscript{2/3}Ca\textsubscript{1/3}MnO\textsubscript{3} thin films},
@@ -944,7 +944,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2009,
+@Article{Li2009APS,
   author  = {Li, Shao and Ren, Yu-Feng and Wang, Ning and Tian, Ye and Chu, Hai-Feng and Li, Song-Lin and Chen, Ying-Fei and Li, Jie and Chen, Geng-Hua and Zheng, Dong-Ning},
   journal = {Acta Physica Sinica},
   title   = {Detection of nuclear magnetic resonance in the microtesla range using a high T\textsubscript{c} dc-superconducting quantum interference device},
@@ -957,7 +957,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Gang2009,
+@Article{Gang2009APS,
   author  = {Gang, Jian-Lei and Li, Song-Lin and Meng, Yang and Liao, Zhao-Liang and Liang, Xue-Jin and Chen, Dong-Min},
   journal = {Acta Physica Sinica},
   title   = {Reproducible low-current resistive switching of metal/Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3}/Pt junctions with a point-contact top electrode},
@@ -970,7 +970,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2009b,
+@Article{Li2009JoPDAP,
   author  = {Li, Song-Lin and Liao, Z. L. and Li, J. and Gang, J. L. and Zheng, D. N.},
   journal = {Journal of Physics D: Applied Physics},
   title   = {Resistive switching properties and low resistance state relaxation in Al/Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3}/Pt junctions},
@@ -983,7 +983,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2009c,
+@Article{Li2009JoAP,
   author  = {Li, Song-Lin and Shang, D. S. and Li, J. and Gang, J. L. and Zheng, D. N.},
   journal = {Journal of Applied Physics},
   title   = {Resistive switching properties in oxygen-deficient Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3} junctions with active Al top electrodes},
@@ -997,7 +997,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2008,
+@Article{Li2008JoPDAP,
   author  = {Li, Song-Lin and Gang, Jian-Lei and Li, Jie and Chu, Hai-Feng and Zheng, Dong-Ning},
   journal = {Journal of Physics D: Applied Physics},
   title   = {Reproducible low-voltage resistive switching in a low-initial-resistance Pr\textsubscript{0.7}Ca\textsubscript{0.3}MnO\textsubscript{3} junction},
@@ -1010,7 +1010,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Chen2008,
+@Article{Chen2008SSaT,
   author  = {Chen, Y. F. and Li, J. and Xu, X. P. and Wang, R. L. and Li, S. L. and Hu, F. R. and Yi, C. H. and Zheng, D. N.},
   journal = {Superconductor Science and Technology},
   title   = {Growth and characterization of 2 inch double-sided Tl\textsubscript{2}Ba\textsubscript{2}CaCu\textsubscript{2}O\textsubscript{8} thin films on LaAlO\textsubscript{3} substrates},
@@ -1023,7 +1023,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Li2008b,
+@Article{Li2008SSaT,
   author  = {Li, Song-Lin and Li, J. and Xiang, J. Y. and Chu, H. F. and Li, Shao and Wang, P. and Zheng, D. N.},
   journal = {Superconductor Science and Technology},
   title   = {Superconductivity, Hall properties and disorder effect in Pr\textsubscript{1-x}Ca\textsubscript{x}Ba\textsubscript{2}Cu\textsubscript{3}O\textsubscript{7-\delta}(0.4≤<i>x</i>≤0.6) epitaxial thin films},
@@ -1036,7 +1036,7 @@
   groups  = {2010-2008},
 }
 
-@Article{Peng2007,
+@Article{Peng2007PCS,
   author  = {Peng, Z. H. and Li, S. and Li, S. L. and Zheng, D. N.},
   journal = {Physica C: Superconductivity},
   title   = {Detection of geometric phases in superconducting flux qubits},
@@ -1048,7 +1048,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Zhang2007,
+@Article{Zhang2007JoMaMM,
   author  = {Zhang, M. J. and Li, J. and Peng, Z. H. and Li, S. L. and Zheng, D. N. and Jin, A. Z. and Gu, C. Z. and Li, R. Y. and Liu, C. C.},
   journal = {Journal of Magnetism and Magnetic Materials},
   title   = {Enhanced extrinsic magnetoresistance in La\textsubscript{2/3}Sr\textsubscript{1/3}MnO\textsubscript{3} artificial grain boundaries induced by ion implantation},
@@ -1061,7 +1061,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Li2007,
+@Article{Li2007PCS,
   author  = {Li, S. L. and Chen, Y. F. and Xu, X. P. and Wang, R. L. and Tian, H. Y. and Lin, D. H. and Zheng, D. N.},
   journal = {Physica C: Superconductivity},
   title   = {Fabrication of double-sided Tl\textsubscript{2}Ba\textsubscript{2}CaCu\textsubscript{2}O\textsubscript{8} thin films on 2-in. LaAlO\textsubscript{3} substrates by pulsed laser deposition and post-annealing},
@@ -1073,7 +1073,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Li2007b,
+@Article{Li2007PCSaiA,
   author  = {Li, S. L. and Xiang, J. Y. and Li, J. and Wang, P. and Wang, R. L. and Lin, D. H. and Zheng, D. N.},
   journal = {Physica C: Superconductivity and its Applications},
   title   = {Superconductivity in Pr\textsubscript{0.4}Ca\textsubscript{0.6}Ba\textsubscript{2}Cu\textsubscript{3}O\textsubscript{7-\delta} epitaxial thin films},
@@ -1085,7 +1085,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Yong2007,
+@Article{Yong2007ML,
   author  = {Yong, L. P. and Zhu, X. H. and Wang, F. B. and Li, S. L. and Sun, X. S. and Zheng, D. N.},
   journal = {Materials Letters},
   title   = {Effect of lattice-mismatch strain on the structural and dielectric properties of (Pb,Sr)TiO\textsubscript{3} thin films grown by pulsed laser deposition},
@@ -1098,7 +1098,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Wang2006,
+@Article{Wang2006JoPCM,
   author  = {Wang, F. B. and Li, J. and Wang, P. and Zhu, X. H. and Zhang, M. J. and Peng, Z. H. and Li, S. L. and Yong, L. P. and Chen, Y. F. and Sun, X. S. and Zheng, D. N.},
   journal = {Journal of Physics: Condensed Matter},
   title   = {Effect of oxygen content on the transport properties of LaTiO\textsubscript{3+\beta/2} thin films},
@@ -1111,7 +1111,7 @@
   groups  = {2007-2006},
 }
 
-@Article{Li2017,
+@Article{Li2017APS,
   author  = {Li, Wei-Sheng and Zhou, Jian and Wang, Han-Chen and Wang, Shu-Xian and Yu, Zhi-Hao and Li, Song-Lin and Shi, Yi and Wang, Xin-Ran},
   journal = {Acta Physica Sinica},
   title   = {Logical integration device for two-dimensional semiconductor transition metal sulfide},
@@ -1125,14 +1125,58 @@
   groups  = {2021-2017},
 }
 
+@Article{Liang2022AAM&I,
+  author  = {Liang, Binxi and Wang, Anjian and Zhou, Jian and Ju, Shihao and Chen, Jian and Watanabe, Kenji and Taniguchi, Takashi and Shi, Yi and Li, Songlin},
+  journal = {ACS Applied Materials & Interfaces},
+  title   = {Clean {BN}-Encapsulated {2D} {FETs} with Lithography-Compatible Contacts},
+  year    = {2022},
+  month   = apr,
+  note    = {20220418},
+  number  = {16},
+  pages   = {18697--18703},
+  volume  = {14},
+  doi     = {10.1021/acsami.2c02956},
+  groups  = {2022},
+}
+
+@Article{Ju2022APL,
+  author  = {Ju, Shihao and Qiu, Lipeng and Zhou, Jian and Liang, Binxi and Wang, Wenfeng and Li, Taotao and Chen, Jian and Wang, Xinran and Shi, Yi and Li, Songlin},
+  journal = {Applied Physics Letters},
+  title   = {Electrical contact properties between {Yb} and few-layer {WS$_{2}$}},
+  year    = {2022},
+  month   = jun,
+  note    = {20220621},
+  number  = {25},
+  pages   = {253505},
+  volume  = {120},
+  doi     = {10.1063/5.0095493},
+  groups  = {2022},
+}
+
+@Article{Tang2022APL,
+  author  = {Tang, Jiachen and Liu, Luhao and Shao, Yinjiang and Wang, Xinran and Shi, Yi and Li, Songlin},
+  journal = {Applied Physics Letters},
+  title   = {A nanogapped hysteresis-free field-effect transistor},
+  year    = {2022},
+  month   = jul,
+  note    = {20220711},
+  number  = {2},
+  pages   = {023503},
+  volume  = {121},
+  doi     = {10.1063/5.0097673},
+  groups  = {2022},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
+1 StaticGroup:2024\;0\;1\;0x800000ff\;\;\;;
+1 StaticGroup:2023\;0\;1\;0xff0000ff\;\;\;;
 1 StaticGroup:2022\;0\;1\;0x00ffffff\;\;\;;
 1 StaticGroup:2021-2017\;0\;1\;0x008080ff\;\;\;;
 1 StaticGroup:2016-2013\;0\;1\;0x0000ffff\;\;\;;
-1 StaticGroup:2012-2011\;0\;0\;0x000080ff\;\;\;;
-1 StaticGroup:2010-2008\;0\;0\;0xff00ffff\;\;\;;
+1 StaticGroup:2012-2011\;0\;1\;0x000080ff\;\;\;;
+1 StaticGroup:2010-2008\;0\;1\;0xff00ffff\;\;\;;
 1 StaticGroup:2007-2006\;0\;1\;0x800080ff\;\;\;;
 }

@@ -1,9 +1,10 @@
-homepath='../'
-subfolder=[]
-exclude=['../404.html']
+homepath='../'   #定义需要搜索的文件夹
+subfolder=[]     #是否有子文件的html需要收集内容？如有可添加
+exclude=['../404.html']  #需要排除的文件
 redirect={'../Publication.html':None,
 '../Publication_en.html':'../reuse/publist.html',
-}
+}  # html重定向，中英文出版列表实际是复用的reuse/publist.html，因此需要重定向
+   # 由于中文出版列表和英文出版列表实际是一致的，因此直接忽略中文出版列表页面（即设为None）
 
 outputpath='./tipuesearch_content.js'
 

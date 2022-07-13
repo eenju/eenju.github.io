@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
     <!-- 自己的放后面-->
     <!--你自己的样式文件 -->
-    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
@@ -34,7 +35,7 @@
             //$("#mycarousel").load("reuse/slide.html");
             $("#myindicators").load("reuse/slide_indicators.html");
             $("#myinner").load("reuse/slide_inner.html");
-            
+
             $("#copyrights").load("reuse/footer.html");
             $.get("reuse/gotop.html",function(data){
                 $("body").append(data);
@@ -49,7 +50,7 @@
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-info">
     -->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom">
-        <a class="navbar-brand" href="index.html">LiLab</a>
+        <a class="navbar-brand" href="index.html"><img src="img/lilab.png" height="50px"/></a>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-expanded="false">
             &#9776;
@@ -87,35 +88,184 @@
         </form>
     </nav>
     <!-- 头部 header - end -->
-	<div class="container-fluid" >
+
+    <div class="container-fluid" >
         <!-- 中部 content - start -->
         <div class="row"  id="main">
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-10 col-md-10 col-sm-12 col-12">
                 <!--基本介绍-->
                 <div class="intro">
-                    <h2>Welcome to LiLab</h2>
+                    <h2>About Us</h2>
                     <div class="horiline"></div>
-                    <p>&emsp;Welcome to Songlin Li's Group at School of Electronic Science and Engineering, Nanjing University (China).</br>
-                    &emsp;The current research interests of our group focus on the field of two-dimensional materials, including carrier transport, mobility/contact engineering, ultra-short channel device and ballistic transport, new structure device, etc.</p>
-                    <h2>Join us</h2>
-                    <div class="horiline"></div>
-                    <p>&emsp;Please contact Prof. Li directly: <a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a></p>
+                    <p>&emsp;Our research group, established in July 2016, is affiliated with the School of Electronic Science and Engineering, Nanjing University. We are devoted to develop sciences and technologies for post-Moore nano-electronics. Our research interests include the synthesis of two-dimensional materials, device physics, and advanced processing and integration techniques.</p>
                 </div>
-                <!--幻灯片播放-->
-                <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
-                    <ol class="carousel-indicators" id="myindicators">
+                
+                <div class="intro">
+                    <h2>Recent Progress</h2>
+                    <div class="horiline"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <!--幻灯片播放-->
+                        <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
+                            <ol class="carousel-indicators" id="myindicators">
+                                
+                            </ol>
+                            <div class="carousel-inner" id="myinner">
+
+                            </div>
+                            <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                            <a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" id="group_news">
+                        <h3>>> News</h3>
+                        <div class="horiline_small"></div>
+                        <!--折叠新闻--开始-->
+                        <div class="accordion" id="accordionExample">
+                            
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_5">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_5" aria-expanded="true" aria-controls="title_5">
+                                        A semi-suspended hysteresis-free field-effect transistor
+                                        </button>
+                                    </h2>
+                                </div>
                         
-                    </ol>
-                    <div class="carousel-inner" id="myinner">
+                                <div id="content_5" class="collapse" aria-labelledby="title_5" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        The semi-suspended hysteresis-free field-effect transistor fabricated by doctoral candidate Jiachen Tang holds the potential for exploiting reliable electronics as well as nanofluid and pressure sensors. The research result was published in <i>Applied Physics Letters</i> under the title "A nanogapped hysteresis-free field-effect transistor".
+                                        <div class="newstime">2022.07.11</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_4">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_4" aria-expanded="true" aria-controls="title_4">
+                                        lowering schottky barrier significantly by Yb contact
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_4" class="collapse" aria-labelledby="title_4" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        The low-work function metal ytterbium (Yb) was chosen by doctoral candidate Shihao Ju as contact material for WS<sub>2</sub> to lower the schottky barrier. The research result was published in <i>Applied Physics Letters</i> under the title "Electrical contact properties between Yb and few-layer WS<sub>2</sub>".
+                                        <div class="newstime">2022.06.21</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_3">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_3" aria-expanded="true" aria-controls="title_3">
+                                        Congratulations to Jian Zhou for successfully passing the doctoral defense
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_3" class="collapse" aria-labelledby="title_3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Doctoral candidate Jian Zhou has passed his doctoral defense on May 19, 2022. 
+                                        The defense committee consists of Prof. Yufeng Guo (Vice President of Nanjing University of Posts and Telecommunications), Prof. Zhenhua Ni (Southeast University), Prof. Jinlan Wang (Southeast University), Prof. Xiaomu Wang (Nanjing University), and Prof. Junzhuan Wang (Nanjing University). Associate Professor Songlin Li participated in the defense as doctoral supervisor, and Dr. Yuhao Li served as defense secretary.
+                                        <div class="newstime">2022.05.19</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_2">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_2" aria-expanded="true" aria-controls="title_2">
+                                        Clean BN-Encapsulated 2D FETs with Lithography-Compatible Contacts
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_2" class="collapse" aria-labelledby="title_2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        A technique combining lithography-defined contact and clean BN encapsulation has been developed by doctoral candidate Binxi Liang, to improve the overall device quality.
+                                        The research result was published in <i>ACS Applied Materials & Interfaces</i> under the title "Clean BN-Encapsulated 2D FETs with Lithography-Compatible Contacts".
+                                        <div class="newstime">2022.04.18</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_1">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_1" aria-expanded="true" aria-controls="title_1">
+                                        Non-invasive digital etching of van der Waals semiconductors
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_1" class="collapse" aria-labelledby="title_1" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Doctoral candidate Jian Zhou used defect engineering to artificially control the diffusion depth of metal Al in two-dimensional TMDC material, and realized the layer by layer digital etching of two-dimensional TMDC material. 
+                                        The research result was published in <i>Nature Communications</i> under the title "Non-invasive digital etching of van der Waals semiconductors".
+                                        <div class="newstime">2022.04.05</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_0">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_0" aria-expanded="true" aria-controls="title_0">
+                                        Antiferromagnetic α-MnTe: Molten-Salt-Assisted Chemical Vapor Deposition Growth and Magneto-Transport Properties
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_0" class="collapse" aria-labelledby="title_0" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Doctoral candidate Shuaixing Li successfully prepared α-MnTe by molten salt assisted chemical vapor deposition, and characterized the crystal quality and magnetic transport characteristics of α-MnTe in detail. 
+                                        The research result was published in <i>Chemistry of Materials</i> under the title "Antiferromagnetic α-MnTe: Molten-Salt-Assisted Chemical Vapor Deposition Growth and Magneto-Transport Properties".
+                                        <div class="newstime">2022.01.25</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+
+
+
+                        </div>
+                        <!--折叠新闻--结束-->
 
                     </div>
-                    <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="intro">
+                            <h2>Contact us</h2>
+                            <div class="horiline"></div>
+                            <p>&emsp;Please contact Prof. Li directly: <a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>; <a href="http://api.map.baidu.com/marker?location=32.116786,118.967882&title=我的位置&content=南京大学电子科学与工程学院&output=html" target="_blank">View the location on the map</a></p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+                
             </div>
         </div>
 
@@ -125,7 +275,6 @@
     <footer id="copyrights">
 
     </footer>
-
-
+    
 </body>
 </html>

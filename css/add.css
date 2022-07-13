@@ -17,7 +17,11 @@ b{
 /*--导航栏设置--开始--*/
 .bg-custom{
   background-color: #740A64 !important; /*来自南京大学徽标字体CMYK=50,100,0,30*/
-
+  padding-left: 1.5%;
+  /*
+  这句好像无用
+  padding-left: 1%;
+  */
 }
 
 .navbar-brand {
@@ -28,16 +32,16 @@ b{
 }
 /*--导航栏设置--结束--*/
 
-/*--面包屑导航设置--开始--*/
-#mybread{
-  background-color: #FFFFFF;
-}
-/*--面包屑导航设置--结束--*/
-
 /*--课题组主页设置--开始--*/
 .intro{
   margin-top: 1rem;
 }
+
+.liwithspace{
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
 .intro h2{
   /*BF914F   B88C4C*/
   color: #BF914F;
@@ -52,6 +56,29 @@ b{
 /*修改轮播图指示器颜色*/
 .carousel-indicators li {
   background-color: goldenrod;
+}
+
+/*轮播图描述文字颜色*/
+
+/*
+.carousel-caption {
+  background-color:rgba(255,255,255,0.2);
+  margin: 0;
+}
+*/
+.carousel-item{
+  background: #000;
+}
+.d-block{
+  opacity:0.9; filter: alpha(opacity=60);
+}
+
+.carousel-caption h3{
+  color: white;
+}
+
+.carousel-caption p{
+  color: white;
 }
 
 /*修改轮播图左右按钮颜色*/
@@ -74,11 +101,14 @@ b{
 #copyrights img{
   padding-top: 10px;
   height: 3.5rem;
- 
+}
+
+#copyrights a{
+  color: #fff;
 }
 
 #copyrights p{
-  text-align: right;
+  text-align: center;
   font-size: 0.9rem;
   color: #fff;
   padding-top: 10px;
@@ -88,41 +118,109 @@ b{
 
 
 /*equipment设置--开始--*/
-.equipment h5{
-  /*color: #00ced1;*/
-  color: #B88C4C;  /*来自南京大学徽标字体CMYK=30,45,75,5*/
+.equipment_slogon{
+  /*background:linear-gradient(to bottom, rgb(255, 255, 255), #fff0d5);*/
+  background:radial-gradient(rgb(255, 255, 255), #dde0d5);
+  padding-top: 20px;
+  color: #740A64;
+  padding-bottom: 20px;
+  text-align: center;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.equipment{
+  margin-bottom: 20px;
 }
 .equipment p{
-  /*正文字体设置*/
-  line-height: 1.8rem;
+  text-align: center;
 }
+.private_title{
+  position: relative;
+}
+.private_title h3{
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(64, 53, 147);
+}
+.private1{
+  position: absolute;
+  top: 75%;
+  left: 82%;
+  margin: -15% 0 0 -10%;
+}
+.private1 p{
+  font-size: 1.1rem;
+}
+
+.private1 ul{
+  font-size: 1.1rem;
+}
+
+.private2{
+  position: absolute;
+  top: 85%;
+  left: 82%;
+  margin: -15% 0 0 -10%;
+}
+.private2 p{
+  font-size: 1.1rem;
+}
+
+.private2 ul{
+  font-size: 1.1rem;
+}
+
+.private3{
+  position: absolute;
+  top: 70%;
+  left: 82%;
+  margin: -15% 0 0 -10%;
+}
+.private3 p{
+  font-size: 1.1rem;
+}
+
+.private3 ul{
+  font-size: 1.1rem;
+}
+
+.private4{
+  position: absolute;
+  top: 70%;
+  left: 82%;
+  margin: -15% 0 0 -10%;
+}
+.private4 p{
+  font-size: 1.1rem;
+}
+
+.private4 ul{
+  font-size: 1.1rem;
+}
+
+.d-flex{
+  margin-top: 10px;
+}
+
+.flex-fill p{
+  text-align: center;
+  font-size: 1.0rem;
+}
+
 /*equipment设置--结束--*/
 
 /*member设置--开始--*/
-.category{
-  text-align: center;
+.member{
+  margin-top: 10px;
 }
-.category h5{
-  color: #B88C4C;
-  font-size: 1.4rem;
-  /*padding-bottom: 15px;*/
-}
-.member
-{
-  padding-bottom: 10px;
-}
-.membername{
-  /*color: #B88C4C;*/
-  font-size: 1.3rem;
+
+.member_name{
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.3rem;
 }
-.longintro{
-  line-height: 1.8rem;
 
-}
 .memberinfo{
   font-size: 1.0rem;
   font-weight: 400;
@@ -130,9 +228,6 @@ b{
   text-align: left;
 }
 
-#alumnilist li{
-  padding-top: 0.5rem;
-}
 /*member设置--结束--*/
 
 /*渐变色水平分割线--开始*/
@@ -191,16 +286,25 @@ b{
 
 /*不同尺寸屏幕适配*/
 @media screen and (min-width: 768px){ /*大于等于768*/
+  .bg-custom{
+    padding-left: 8.2%;
+  }
 
 }
 @media screen and (min-width: 992px){ /*大于等于992*/
+  .bg-custom{
+    padding-left: 8.2%;
+  }
 
   #lslpic{
     width: 100%;
   }
 }
 @media screen and (min-width: 1200px){ /*大于等于1200*/
-
+  .bg-custom{
+    padding-left: 8.2%;
+  }
+  
   #lslpic{
     width: 66%;  /*适应大屏幕下照片过长问题*/
   }

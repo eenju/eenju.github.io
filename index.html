@@ -20,6 +20,7 @@
     <!-- 自己的放后面-->
     <!--你自己的样式文件 -->
     <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
@@ -48,35 +49,35 @@
     <!--
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-info">
     -->
-    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom">
-        <a class="navbar-brand" href="index.html">LiLab</a>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom" >
+        <a class="navbar-brand" href="index.html"><img src="img/lilab.png" height="50px"/></a>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-expanded="false">
             &#9776;
         </button>
     
         <!-- 切换菜单内容 -->
-        <div class="collapse navbar-collapse" id="exCollapsingNavbar">
+        <div class="collapse navbar-collapse" id="exCollapsingNavbar" >
             <ul class="nav navbar-nav">
-            <li class="nav-item active">
-            <a class="nav-link" href="index.html">主页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="research.html">研究领域</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="equipment.html">仪器设备</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="member.html">组内成员</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="Publication.html">研究成果</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index_en.html">English Version</a>
-            </li>
-        </ul>
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">主页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="research.html">研究领域</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="equipment.html">仪器设备</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="member.html">组内成员</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Publication.html">研究成果</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index_en.html">English Version</a>
+                </li>
+            </ul>
         </div>
         <!-- 切换菜单内容 -->
         
@@ -87,35 +88,179 @@
         </form>
     </nav>
     <!-- 头部 header - end -->
+    
 	<div class="container-fluid" >
         <!-- 中部 content - start -->
         <div class="row"  id="main">
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-10 col-md-10 col-sm-12 col-12">
                 <!--基本介绍-->
                 <div class="intro">
-                    <h2>Welcome to LiLab</h2>
+                    <h2>关于我们</h2>
                     <div class="horiline"></div>
-                    <p>&emsp;&emsp;欢迎来到南京大学电子科学与工程学院黎松林课题组。目前本课题组的研究兴趣集中在二维材料领域，包括载流子输运、迁移率/接触优化、超短沟道器件与弹道输运、新结构器件等等。
+                    <p>&emsp;&emsp;本课题组成立于2016年7月，隶属于南京大学电子科学与工程学院，致力于发展后摩尔时代的微纳电子学，主要围绕二维电子材料合成、器件物理、先进加工和集成等方面开展工作。毕业生多入职华为海思、合肥长鑫等半导体知名企业。
                     </p>
-                    <h2>Join us</h2>
-                    <div class="horiline"></div>
-                    <p>&emsp;&emsp;请直接联系黎老师：<a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a></p>
                 </div>
-                <!--幻灯片播放-->
-                <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
-                    <ol class="carousel-indicators" id="myindicators">
+                
+                <div class="intro">
+                    <h2>最新动态</h2>
+                    <div class="horiline"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <!--幻灯片播放-->
+                        <div class="carousel slide" id="mycarousel" data-ride="carousel" data-interval="3000">
+                            <ol class="carousel-indicators" id="myindicators">
+                                
+                            </ol>
+                            <div class="carousel-inner" id="myinner">
+
+                            </div>
+                            <!--下面两个a是向左向右的按钮-->
+                            <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                            <a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" id="group_news">
+                        <h3>>> News</h3>
+                        <div class="horiline_small"></div>
+                        <!--折叠新闻--开始-->
+                        <div class="accordion" id="accordionExample">
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_5">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_5" aria-expanded="true" aria-controls="title_5">
+                                        无回滞的半悬空晶体管
+                                        </button>
+                                    </h2>
+                                </div>
                         
-                    </ol>
-                    <div class="carousel-inner" id="myinner">
+                                <div id="content_5" class="collapse" aria-labelledby="title_5" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        博士研究生唐家晨制备的无回滞的半悬空晶体管具有在微流体、压力传感等领域的应用前景，相关研究成果以“A nanogapped hysteresis-free field-effect transistor”为题发表在<i>Applied Physics Letters</i>上。
+                                        <div class="newstime">2022年07月11日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_4">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_4" aria-expanded="true" aria-controls="title_4">
+                                        利用金属Yb接触显著降低肖特基势垒
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_4" class="collapse" aria-labelledby="title_4" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        博士研究生居仕豪利用低功函数金属Yb作为WS<sub>2</sub>的接触材料，显著地将肖特基势垒降低为36meV，相关研究成果以“Electrical contact properties between Yb and few-layer WS<sub>2</sub>”为题发表在<i>Applied Physics Letters</i>上。
+                                        <div class="newstime">2022年06月21日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_3">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_3" aria-expanded="true" aria-controls="title_3">
+                                        祝贺课题组博士研究生周健顺利通过毕业答辩！
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_3" class="collapse" aria-labelledby="title_3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        2022年5月19日，课题组博士研究生周健顺利通过博士学位答辩，出席的答辩委员会专家包括郭宇锋教授（南京邮电大学副校长）、倪振华教授（东南大学）、王金兰教授（东南大学）、王肖沐教授（南京大学）、王军转教授（南京大学），黎松林副教授作为博士导师参与旁听，李宇豪博士担任答辩秘书。
+                                        <div class="newstime">2022年05月19日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_2">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_2" aria-expanded="true" aria-controls="title_2">
+                                        与光刻兼容的洁净BN封装二维材料晶体管
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_2" class="collapse" aria-labelledby="title_2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        博士研究生梁斌熙开发了一种将光刻定义接触与BN封装结合的技术，提高了器件的整体质量，相关研究成果以“Clean BN-Encapsulated 2D FETs with Lithography-Compatible Contacts”为题发表在<i>ACS Applied Materials & Interfaces</i>上。
+                                        <div class="newstime">2022年04月18日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_1">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_1" aria-expanded="true" aria-controls="title_1">
+                                        二维范德华材料的无损数字式刻蚀
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_1" class="collapse" aria-labelledby="title_1" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        博士研究生周健利用缺陷工程人为控制金属Al在二维TMDC材料中扩散深度，实现了二维TMDC材料的逐层数字式刻蚀，相关研究成果以“Non-invasive digital etching of van der Waals semiconductors”为题发表在<i>Nature Communications</i>上。
+                                        <div class="newstime">2022年04月05日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+                            <!--单个新闻，开始-->
+                            <div class="card">
+                                <div class="card-header" id="title_0">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left newsbtn" type="button" data-toggle="collapse" data-target="#content_0" aria-expanded="true" aria-controls="title_0">
+                                        反铁磁材料α-MnTe：熔盐辅助化学气相沉积生长及其磁输运特性
+                                        </button>
+                                    </h2>
+                                </div>
+                        
+                                <div id="content_0" class="collapse" aria-labelledby="title_0" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        博士研究生李帅星利用熔盐辅助化学气相沉积成功制备反铁磁材料α-MnTe，并对其晶体质量以及磁输运特性进行了详细的表征，相关研究成果以“Antiferromagnetic α-MnTe: Molten-Salt-Assisted Chemical Vapor Deposition Growth and Magneto-Transport Properties”为题发表在<i>Chemistry of Materials</i>上。
+                                        <div class="newstime">2022年01月25日</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--单个新闻，结束-->
+
+
+                        </div>
+                        <!--折叠新闻--结束-->
 
                     </div>
-                    <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next" href="#mycarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="intro">
+                            <h2>联系我们</h2>
+                            <div class="horiline"></div>
+                            <p>&emsp;&emsp;请直接联系黎老师：<a href="mailto:sli@nju.edu.cn">sli@nju.edu.cn</a>；<a href="http://api.map.baidu.com/marker?location=32.116786,118.967882&title=我的位置&content=南京大学电子科学与工程学院&output=html" target="_blank">南京大学电子学院433</a></p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+                
             </div>
         </div>
 

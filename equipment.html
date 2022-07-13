@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap_4.6.1.css">
     <!--你自己的样式文件 -->
     <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add2.css">
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
@@ -41,7 +42,7 @@
 <body>
     <!-- 头部 header - start -->
     <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom">
-        <a class="navbar-brand" href="index.html">LiLab</a>
+        <a class="navbar-brand" href="index.html"><img src="img/lilab.png" height="50px"/></a>
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-expanded="false">
             &#9776;
@@ -80,109 +81,202 @@
     </nav>
     <!-- 头部 header - end -->
 
-    <!-- 面包屑导航   start -->
-    <nav>
-        <ol class="breadcrumb" id="mybread">
-            <li>您所在位置：</li>
-            <li class="breadcrumb-item"><a href="index.html">主页</a></li>
-            <li class="breadcrumb-item active">仪器设备</li>
-        </ol>
-    </nav>
-    <!-- 面包屑导航   end -->
-
+    <div class="equipment_slogon">
+        Limited Facilities, Endless Ideas
+        <br/>设备有限, 思维无限
+    </div>
 
 	<div class="container-fluid" >
         <!-- 中部 content - start -->
         <div class="row"  id="main">
-            <div class="col-md-2">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
                 <!--仪器设备介绍-->
+                <h2 id="fab">南京大学电子学院微制造与集成工艺中心</h2>
+                <div class="horiline"></div>
                 <div class="row">
-                    <!--设备1-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                        <img src="./img/equipment/glovebox.jpg" alt="多级联合手套箱" width="100%"/>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/1.jpg" width="100%"/>
+                        <p>微制造与集成工艺中心</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment">
-                        <h5 >多级联合手套箱</h5>
-                        <p>二维材料及其异质结构对环境中的氧和水非常敏感，而手套箱的惰性气体环境可以避免这种情况。课题组有一个多级联合手套箱系统，包括六工位物理手套箱和双工位化学手套箱，其可以实现低于1 ppm的水氧含量。<br/>
-                            此外，手套箱中还集成有显微镜、匀胶机、转移平台、热蒸发等，可以满足多种实验需要。
-                        </p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/2.jpg" width="100%"/>
+                        <p>薄膜沉积工艺区</p>
                     </div>
-                    <!--设备2-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/evaporation.jpg" alt="热蒸发" width="100%"/>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/3.jpg" width="100%"/>
+                        <p>光刻工艺区</p>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >惰性氛围热蒸发镀膜仪</h5>
-                        <p>热蒸发镀膜仪可以用于包括器件电极制备在内的多种场合下，蒸发Ni、Cr、Ag、Al、Au、MoO<sub>3</sub>等多种材料。该热蒸发镀膜仪具有两个独立的加热电源，可以同时蒸发两种材料。<br/>
-                        此外课题组的热蒸发镀膜仪被集成在手套箱中，可以更好地避免水氧吸附等的影响。
-                        </p>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
+                        <img src="img/equipment/fab/4.jpg" width="100%"/>
+                        <p>薄膜刻蚀工艺区</p>
                     </div>
-                    <!--设备3-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/transfer.png" alt="转移平台" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >惰性氛围转移平台</h5>
-                        <p>种类丰富的二维材料使我们能够构建多种功能的异质结构。转移平台便是一种通用的构建二维材料异质结构的工具。<br/>
-                        该转移平台同样被集成在手套箱中，以避免样品退化、异质结界面中夹入水氧等问题。
-                        </p>
-                    </div>
-                    <!--设备4-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/EBL.jpg" alt="电子束曝光系统" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >电子束光刻系统</h5>
-                        <p>实验时的器件或其他图形制备主要靠电子束光刻（EBL）实现。<br/>
-                        所使用的电子束光刻系统是日本Elionix公司所生产的ELS3700型产品，可以达到100 nm的最小线宽。
-                        </p>
-                    </div>
-                    <!--设备5-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/probe.png" alt="真空低温探针台" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >真空低温探针台</h5>
-                        <p> Lake Shore公司生产的CRX-6.5K型低温真空探针台使我们能够在低至8 K的温度下对电学器件进行测试表征。<br/>
-                        此外该探针台还预留了一个激光探针臂，使其可以进行更加丰富的光电测试。
-                        </p>
-                    </div>
-                    <!--设备6-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/probe_glove.jpg" alt="惰性气氛探针台" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >惰性气氛探针台</h5>
-                        <p>除了真空低温探针台之外，课题组还有一台集成在手套箱中的惰性气氛常温探针台。<br/>
-                        配合手套箱中的其他设备，使我们完全能够在手套箱中完成器件的原位制备与测试。
-                        </p>
-                    </div>
-                    <!--设备7-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/lowt.png" alt="超导磁体低温系统" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >超导磁体无液氦低温系统</h5>
-                        <p>载流子的输运性质需要在低温和高磁场下进行测试表征。
-                        课题组有牛津仪器公司生产的TeslatronPT超导磁体无液氦低温系统。<br/>
-                        这使我们可以在最高12 T的磁感应强度下进行测试，配合He4插杆和He3插杆可分别将温度降低至1.5 K和300 mK。
-                        </p>
-                    </div>
-                    <!--设备8-->
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:15px;">
-                        <img src="./img/equipment/furnace.jpg" alt="管式炉" width="100%"/>
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-12 equipment" style="margin-top:15px;">
-                        <h5 >多温区管式炉</h5>
-                        <p>课题组有两台三温区管式炉，两台双温区管式炉以及两台单温区管式炉，可以进行多种材料的生长制备、器件退火等等。
-                        </p>
-                    </div>
-                    
                 </div>
+                <h2 id="public">公用设备</h2>
+                <div class="horiline"></div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/1.jpg" width="100%"/>
+                        <p>电子束曝光</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/2.jpg" width="100%"/>
+                        <p>原子层沉积</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/3.jpg" width="100%"/>
+                        <p>紫外曝光</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/4.jpg" width="100%"/>
+                        <p>电感耦合等离子刻蚀</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/5.jpg" width="100%"/>
+                        <p>反应离子刻蚀</p>
+                    </div>
+                </div>
+                <h2 id="private">组内设备</h2>
+                <div class="horiline"></div>
+
+                <!--组内设备1，开始-->
+                <div class="private_title">
+                    <h3>原位手套箱</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_1/1.jpg" width="70%"/>
+                    </div>
+                    <div class="private1">
+                        <p>自研超大16工位手套箱</p>
+                        <ul class="sm-none-zj">
+                            <li>器件加工</li>
+                            <li>热蒸镀</li>
+                            <li>化学仓</li>
+                            <li>高温探针台</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 37%;">
+                        <img src="img/equipment/private_1/2.jpg" width="95%"/>
+                        <p>器件加工</p>
+                        <img src="img/equipment/private_1/3.jpg" width="95%"/>
+                        <p>6吋高温探针台</p>
+                    </div>
+                    <div class="flex-fill flex-single-item" style="width: 26%;">
+                        <img src="img/equipment/private_1/4.jpg" width="95%"/>
+                        <p>原位热蒸镀</p>
+                    </div>
+                    <div class="flex-fill" style="width: 37%;">
+                        <img src="img/equipment/private_1/5.jpg" width="95%"/>
+                        <p>光电测试</p>
+                        <img src="img/equipment/private_1/6.jpg" width="95%"/>
+                        <p>化学手套箱</p>  
+                    </div>
+                </div>
+                <!--组内设备1，结束-->
+
+                <!--组内设备2，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>低温探针台（闭循环制冷）</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_2/1.jpg" width="70%"/>
+                    </div>
+                    <div class="private2">
+                        <p>多功能低温探针台</p>
+                        <ul class="sm-none-zj">
+                            <li>10-350 K （半导体物理）</li>
+                            <li>5探针臂+可加电底座（兼容6引线测试）</li>
+                            <li>1光纤臂（兼容光电测试）</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 50%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">BN包覆的单层减薄MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/2.jpg" width="95%"/>
+                        <!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+                        <p style="color: blue;"><i>Nat. Commun.</i> 13(1):1844 (2022) </p>
+                    </div>
+                    <div class="flex-fill flex-single-item" style="width: 50%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">BN包覆的6层MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/3.jpg" width="95%"/>
+                        <p style="color: blue;"><i>ACS Appl. Mater. Interfaces.</i> 14(16):18697 (2022)</p>
+                    </div>
+                </div>
+                <!--组内设备2，结束-->
+
+                <!--组内设备3，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>低温强磁场平台（量子物性）</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_3/1.png" width="70%"/>
+                    </div>
+                    <div class="private3">
+                        <p>低温强磁场平台（电子楼128）</p>
+                        <ul class="sm-none-zj">
+                            <li>低温强磁场测试条件（1.6K, 12T）
+                            </li>
+                            <li>新材料的量子输运现象
+                            </li>
+                            <li>利用python语言编写和优化Hall、磁阻、RT等测量程序
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 100%;">
+                        <img src="img/equipment/private_3/2.png" width="95%"/>
+                        <!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+                        <p>石墨烯器件及其量子振荡</p>
+                    </div>
+                </div>
+                <!--组内设备3，结束-->
+            
+                <!--组内设备4，开始-->
+                <div class="private_title" style="margin-top: 20px;">
+                    <h3>CVD + CVT （灵活定制样品）</h3>
+                    <div style="width: 100%;margin-top:15px ;">
+                        <img src="img/equipment/private_4/1.png" width="70%"/>
+                    </div>
+                    <div class="private4">
+                        <p>三温区管式炉（电子楼144）</p>
+                        <ul class="sm-none-zj">
+                            <li>化学气相沉积和输运 （CVD + CVT各两台）
+                            </li>
+                            <li>碘传输媒质（降低升华点）
+                            </li>
+                            <li>温度梯度 （高温端粉料升华，低温端单晶结晶）
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="flex-fill" style="width: 40%;">
+                        <img src="img/equipment/private_4/2.png" width="95%"/>
+                        <p>CVT管式炉生长</p>
+                    </div>
+                    <div class="flex-fill flex-single-item" style="width: 20%;">
+                        <img src="img/equipment/private_4/3.png" width="95%"/>
+                    </div>
+                    <div class="flex-fill" style="width: 40%;">
+                        <img src="img/equipment/private_4/4.png" width="95%"/>
+                        <p>厘米级片状WSe<sub>2</sub>单晶</p>
+                    </div>
+
+                </div>
+                <!--组内设备4，结束-->
+
+
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="sm-none-zj sidebar">
+                    <ul>
+                        <li ><a href="#fab">微制造与集成工艺中心</a></li>
+                        <li ><a href="#public">公用设备</a></li>
+                        <li ><a href="#private">组内设备</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 

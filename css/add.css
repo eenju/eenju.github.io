@@ -200,7 +200,7 @@ b{
   font-size: 1.1rem;
 }
 
-.d-flex{
+.d-flex {
   margin-left: 50px;  /*图片缩进*/
   margin-top: 10px; 
 }
@@ -208,7 +208,7 @@ b{
   max-height: 150px;
   max-width: 100%;}
 
-.flex-fill2 p{        /*equipment.html*/
+.d-flex p{           /*equipment.html*/
   text-align: center;
   font-size: 1.0rem;
 }
@@ -217,6 +217,10 @@ b{
   max-width: 100%;
 }
 
+.flex-fill3 img{       /*equipment.html*/
+  max-height: 400px;
+  max-width: 100%;
+}
 
 /*equipment设置--结束--*/
 

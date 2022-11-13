@@ -88,7 +88,7 @@ http://www.tipue.com/search
                var tipue_search_w = '';
                if (set.newWindow)
                {
-                    tipue_search_w = ' target="_blank"';      
+                    tipue_search_w = '';      
                }
 
                function getURLP(name)

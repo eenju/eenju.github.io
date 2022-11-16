@@ -1,30 +1,30 @@
 <!DOCTYPE html> <!--创建者：周健，修改：SLi-->
-<html lang="en">
+<html lang="zh-CN">
 <head>
 	<base target="_blank"/> 	<meta charset="UTF-8">
     <!-- meta使用viewport以确保页面可自由缩放 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">     <meta name="title" content="">
     <meta name="keywords" content="">     <meta name="description" content="">
-    <title>Songlin Li's Lab in NJU</title>
-    <link rel="shortcut icon" href="img/logo.svg"/>        <!--增加网页logo-->
-    <link rel="stylesheet" href="css/bootstrap_4.6.1.css"> <!--样式文件--开始-->
-    <link rel="stylesheet" href="css/add.css">             <!--自己的样式文件, 必须放在系统样式之后 -->
-    <link rel="stylesheet" href="css/add2.css">    
+    <title>南京大学黎松林课题组</title>
+    <link rel="shortcut icon" href="./img/logo.svg"/>        <!--增加网页logo-->
+    <link rel="stylesheet" href="./css/bootstrap_4.6.1.css"> <!--样式文件--开始-->
+    <link rel="stylesheet" href="./css/add.css">             <!--自己的样式文件, 必须放在系统样式之后 -->
+    <link rel="stylesheet" href="./css/add2.css">    
     <!--样式文件--结束-->
 
     <!-- 引入 js 库--开始 -->
-    <script src="js/jquery_3.6.0.js"></script>
-    <script src="js/popper.min_1.12.9.js"></script>
-    <script src="js/bootstrap.min_4.6.1.js"></script>
+    <script src="./js/jquery_3.6.0.js"></script>
+    <script src="./js/popper.min_1.12.9.js"></script>
+    <script src="./js/bootstrap.min_4.6.1.js"></script>
     <!-- 引入 js 库--结束 -->
     
     <!--载入header，silde和footer-->
     <script type="text/javascript">
         $(document).ready(function(){
             $("#header0").load("./reuse/header.htm");     <!--header后面加0，防止与关键字冲突-->
-            $("#footer0").load("./reuse/footer_en.htm");     <!--footer0的格式在 add.css里设置-->
-            $.get("reuse/gotop.htm",function(data){$("body").append(data);});
+            $("#footer0").load("./reuse/footer.htm");     <!--footer0的格式在 add.css里设置-->
+            $.get("./reuse/gotop.htm",function(data){$("body").append(data);});    <!--footer右下角 向上箭头-->
         });
     </script>	
 </head>
@@ -43,7 +43,7 @@
     <div class="col-md-8" style="padding-top: 25vh;padding-bottom: 30vh;text-align: center;"> 
       <h1 style="padding-bottom: 10px;color: #a0a0a0;"> 404 </h1>
       <p style="font-size: 1.1rem;"> 抱歉，您所访问的页面不存在 </p>
-      <button type="button" class="mybtn btn-link" onclick="location='index.htm' "> 
+      <button type="button" class="mybtn btn-link" onclick="location='./index.htm' "> 
       点此返回主页</br> </button>
     </div>
             

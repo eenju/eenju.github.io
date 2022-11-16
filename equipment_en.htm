@@ -1,12 +1,12 @@
 <!DOCTYPE html> <!--创建者：周健，修改：SLi-->
-<html lang="zh-CN">
+<html lang="en">
 <head>
-	<base target="_blank"/> 	<meta charset="UTF-8">
+	<base target="_blank"> 	<meta charset="UTF-8">
     <!-- meta使用viewport以确保页面可自由缩放 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">     <meta name="title" content="">
     <meta name="keywords" content="">     <meta name="description" content="">
-    <title>南京大学黎松林课题组</title>
+    <title>Songlin Li's Lab at NJU</title>
     <link rel="shortcut icon" href="./img/logo.svg"/>        <!--增加网页logo-->
     <link rel="stylesheet" href="./css/bootstrap_4.6.1.css"> <!--样式文件--开始-->
     <link rel="stylesheet" href="./css/add.css">             <!--自己的样式文件, 必须放在系统样式之后 -->
@@ -22,8 +22,8 @@
     <!--载入header，silde和footer-->
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#header0").load("./reuse/header.htm");     <!--header后面加0，防止与关键字冲突-->
-            $("#footer0").load("./reuse/footer.htm");     <!--footer0的格式在 add.css里设置-->
+            $("#header0").load("./reuse/header_en.htm");     <!--header后面加0，防止与关键字冲突-->
+            $("#footer0").load("./reuse/footer_en.htm");     <!--footer0的格式在 add.css里设置-->
             $.get("./reuse/gotop.htm",function(data){$("body").append(data);});    <!--footer右下角 向上箭头-->
         });
     </script>	
@@ -45,178 +45,191 @@
 			<div class="col-lg-1 col-md-1 col-sm-12 col-12">  </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 intro">
                 <!--仪器设备介绍-->
-                <h2 id="fab">电子学院微制造与集成工艺中心概况</h2>
+                <h2 id="fab">Micro Fabrication and Integration Technology Center
+                </h2>
                 <div class="horiline"></div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
-                        <img src="img/equipment/fab/1.jpg" width="100%"/>
-                        <p>工艺中心牌匾</p>
+                        <img src="img/equipment/fab/1_en.jpg" width="100%"/>
+                        <p>Micro-fabrication Center</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
                         <img src="img/equipment/fab/2.jpg" width="100%"/>
-                        <p>薄膜沉积工艺区</p>
+                        <p>Film Deposition Section</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
                         <img src="img/equipment/fab/3.jpg" width="100%"/>
-                        <p>光刻工艺区</p>
+                        <p>Photolithography Section</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 equipment">
                         <img src="img/equipment/fab/4.jpg" width="100%"/>
-                        <p>薄膜刻蚀工艺区</p>
+                        <p>Film Etching Section</p>
                     </div>
                 </div>
-                <h2 id="public">公用设备</h2>
+                <h2 id="public">Public Facilities</h2>
                 <div class="horiline"></div>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
                         <img src="img/equipment/public/1.jpg" width="100%"/>
-                        <p>电子束曝光</p>
+                        <p>Electron Beam Lithography</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
                         <img src="img/equipment/public/2.jpg" width="100%"/>
-                        <p>原子层沉积</p>
+                        <p>Atomic Layer Deposition</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
                         <img src="img/equipment/public/3.jpg" width="100%"/>
-                        <p>紫外曝光</p>
+                        <p>UV exposure</p>
                     </div>
+                 <!--   <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
+                        <img src="img/equipment/public/4.jpg" width="100%"/>
+                        <p>Inductively coupled plasma etching</p>
+                    </div> -->
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 equipment">
                         <img src="img/equipment/public/5.jpg" width="100%"/>
-                        <p>反应离子刻蚀</p>
+                        <p>Reactive Ion Etching</p>
                     </div>
                 </div>
-				
-                <h2 id="private">组内设备</h2>   <!--组内设备1，开始-->
+                <h2 id="private">Lab Facilities</h2>
                 <div class="horiline"></div>
-				   
+
+                <!--组内设备1，开始-->
+                
       <div class="private_title"> 
-        <h3>原位手套箱</h3>
+        <h3>In situ glove box</h3>
         <div style="width: 100%;margin-top:15px ;"> <img src="img/equipment/private_1/1.jpg" width="70%"/> 
         </div>
         <div class="private1"> 
-          <p>自研8工位手套箱</p>
+          <p>Home-made 8-port glovebox for in-situ device fabrication</p>
           <ul class="sm-none-zj">
-            <li>范德华转移</li>
-            <li>薄膜热蒸镀</li>
-            <li>化学操作仓</li>
-            <li>高温探针台</li>
+            <li>Device fabrication</li>
+            <li>Thermal evaporation</li>
+            <li>Chemical glove box</li>
+            <li>High-T probe station</li>
           </ul>
         </div>
       </div>
-	             <div class="d-flex">
+                <div class="d-flex">
                     <div class="flex-fill" style="width: 37%;">
-                        <img src="img/equipment/private_1/2.jpg" width="95%"/> <p>器件加工</p>
-                        <img src="img/equipment/private_1/3.jpg" width="95%"/><p>6吋高温探针台</p></div>
+                        <img src="img/equipment/private_1/2.jpg" width="95%"/>
+                        <p>van der Waals Stacking</p>
+                        <img src="img/equipment/private_1/3.jpg" width="95%"/>
+                        <p>6-inch High-T probe station</p>
+                    </div>
                     <div class="flex-fill3" style="width: 26%;">
-                        <img src="img/equipment/private_1/4.jpg" width="93%"/><p>原位热蒸镀</p> </div>
+                        <img src="img/equipment/private_1/4.jpg" width="93%"/><p>In situ Thermal evaporation</p> </div>
                     <div class="flex-fill" style="width: 37%;">
-                        <img src="img/equipment/private_1/5.jpg" width="95%"/><p>光电测试</p>
-                        <img src="img/equipment/private_1/6.jpg" width="95%"/><p>化学手套箱</p> </div>
+                        <img src="img/equipment/private_1/5.jpg" width="95%"/>
+                        <p>Opto-electronic measurement</p>
+                        <img src="img/equipment/private_1/6.jpg" width="95%"/>
+                        <p>Chemical glove box</p>  
+                    </div>
                 </div>
                 <!--组内设备1，结束-->
-
 
                 <!--组内设备2，开始-->
                 
       <div class="private_title" style="margin-top: 50px;"> 
-        <h3>低温探针台（闭循环制冷）</h3>
+        <h3>Cryogenic probe station (cooled by pulsed tube refrigerator)</h3>
         <div style="width: 100%;margin-top:15px ;"> <img src="img/equipment/private_2/1.jpg" width="70%"/> 
         </div>
         <div class="private2"> 
-          <p>多功能低温探针台</p>
+          <p>Low-T probe station</p>
           <ul class="sm-none-zj">
-            <li>温区：10-350 K </li>
-            <li>5探针臂</li>
-            <li>1光纤臂</li>
+            <li>10-350 K</li>
+            <li>5 probe arms</li>
+            <li>1 optical fiber arm</li>
           </ul>
         </div>
       </div>
-		<div class="d-flex">
-			<div class="flex-fill2" style="width: 40%;">
-				<p style="margin-bottom: 0px;margin-top:10px">BN包覆的减薄MoS<sub>2</sub></p>
-				<img src="img/equipment/private_2/2.jpg">
-				<!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
-				<p style="color: blue;"><i>Nat. Commun.</i> 13, 1844 (2022) </p>
-			</div>
-			<div class="flex-fill2" style="width: 40%;">
-				<p style="margin-bottom: 0px;margin-top:10px">BN包覆的6层MoS<sub>2</sub></p>
-				<img src="img/equipment/private_2/3.jpg"/>
-				<p style="color: blue;"><i>ACS AMI</i> 14, 18697 (2022)</p>
-			</div>
-        </div>
+                <div class="d-flex">
+                    <div class="flex-fill2" style="width: 40%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">1L etched MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/2.jpg" />
+                        <!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+                        <p style="color: blue;"><i>Nat. Commun.</i> 13, 1844 (2022) </p>
+                    </div>
+                    <div class="flex-fill2" style="width: 40%;">
+                        <p style="margin-bottom: 0px;margin-top:10px">BN encapsulated 6 layerx MoS<sub>2</sub></p>
+                        <img src="img/equipment/private_2/3.jpg"/>
+                        <p style="color: blue;"><i>ACS AMI</i> 14, 18697 (2022)</p>
+                    </div>
+                </div>
                 <!--组内设备2，结束-->
 
-                <!--组内设备3，开始-->                
-		
+                <!--组内设备3，开始-->
+                
+			
       <div class="private_title" style="margin-top: 50px;"> 
-        <h3>低温强磁场平台（量子物性）</h3>
+        <h3>Quantum transport research platform</h3>
         <div style="width: 100%;margin-top:15px ;"> <img src="img/equipment/private_3/1.png" width="70%"/> 
         </div>
         <div class="private3"> 
-          <p>低温强磁场平台</p>
+          <p>Low-T high magnetic field platform</p>
           <ul class="sm-none-zj">
             <li>1.6K, 12T </li>
-            <li>样品台40引脚 </li>
-            <li>量子输运现象</li>
+            <li>Max. 40-pin chip carrier</li>
+            <li>Quantum transport</li>
           </ul>
         </div>
       </div>
-			  
-		<div class="d-flex">
-			<div class="flex-fill2" style="width: 80%;">
-				<img src="img/equipment/private_3/2.png"/>
-				<!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
-				<p>石墨烯器件及其量子振荡</p>
+			<div class="d-flex">
+				<div class="flex-fill2" style="width: 80%;">
+					<img src="img/equipment/private_3/2.png"/>
+					<!--图片上下方向需要修剪，避免文字和图片之间留白过多-->
+					<p>Graphene-based device and its quantum oscillation</p>
+				</div>
 			</div>
-		</div>
                 <!--组内设备3，结束-->
             
                 <!--组内设备4，开始-->                
-		
+			
       <div class="private_title" style="margin-top: 50px;"> 
-        <h3>材料合成间（灵活定制样品）</h3>
+        <h3>Material synthesis lab</h3>
         <div style="width: 100%;margin-top:15px ;"> <img src="img/equipment/private_4/1.png" width="70%"/> 
         </div>
-        <div class="private4"> 
-          <p>单晶合成</p>
-          <ul class="sm-none-zj">
-            <li>三温区管式炉</li>
-            <li>化学气相沉积</li>
-            <li>化学气相输运</li>
+        <div class="private4" style="top:60%"> 
+          <p>Crystal synthesis</p>
+          <ul class="sm-none-zj" >
+            <li>Three-zone furnaces</li>
+            <li>CVD & CVT</li>
           </ul>
         </div>
       </div>
-		<div class="d-flex" >
-			<div class="flex-fill2" style="width: 30%;">
-				<img src="img/equipment/private_4/2.png"/>
-				<p>CVT管式炉生长</p>
+			<div class="d-flex">
+				<div class="flex-fill2" style="width: 30%;">
+					<img src="img/equipment/private_4/2.png"/>
+					<p>A tube furnace for CVT synthesis</p>
+				</div>
+				<div class="flex-fill2 flex-single-item" style="width: 15%;">
+					<img src="img/equipment/private_4/3.png"/>
+				</div>
+				<div class="flex-fill2" style="width: 30%;">
+					<img src="img/equipment/private_4/4.png"/>
+					<p>Centimeter-sized WSe<sub>2</sub> crystal flakes</p>
+				</div>				
 			</div>
-			<div class="flex-fill2 flex-single-item" style="width: 15%;">
-				<img src="img/equipment/private_4/3.png"/>
-			</div>
-			<div class="flex-fill2" style="width: 30%;">
-				<img src="img/equipment/private_4/4.png"/>
-				<p>厘米级WSe<sub>2</sub>单晶</p>
-			</div>
-	
-		</div>
                 <!--组内设备4，结束-->
 
+
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
                 <div class="sm-none-zj sidebar">
                     <ul>
-                        <li ><a href="#fab" target="_self">中心概况</a></li>
-                        <li ><a href="#public" target="_self">公用设备</a></li>
-                        <li ><a href="#private" target="_self">组内设备</a></li>
+                        <li ><a href="#fab" target="_self">Center overview</a></li>
+                        <li ><a href="#public" target="_self">Public Facilities</a></li>
+                        <li ><a href="#private" target="_self">Lab Facilities</a></li>
                     </ul>
                 </div>
             </div>
+			
         </div>
+
     </div>
 
     <!--网页footer, #footer0格式在add.css中有设置--> 
     <div id="footer0"> </div>   <!--载入footer-->
+
 
 </body>
 </html>

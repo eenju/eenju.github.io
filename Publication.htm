@@ -23,6 +23,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $("#header0").load("./reuse/header.htm");     <!--header后面加0，防止与关键字冲突-->
+			$("#publist").load("./reuse/publist.htm");
             $("#footer0").load("./reuse/footer.htm");     <!--footer0的格式在 add.css里设置-->
             $.get("./reuse/gotop.htm",function(data){$("body").append(data);});    <!--footer右下角 向上箭头-->
         });

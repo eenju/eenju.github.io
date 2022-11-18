@@ -93,24 +93,22 @@ b{
 /*--课题组主页设置--结束--*/
 
 /*--footer设置开始--*/
-#footer0 ,
+#footer0,
 #footer1{
   margin-top: 20px;
   background-color: #555;
 }
 
-#footer0 img ,
-#footer1 img{
+#footer0, #footer1 img{
   padding-top: 10px;
   height: 3.5rem;
 }
 
-#footer0 a ,
-#footer1 a{
+#footer0, #footer1 a{
   color: #fff;
 }
 
-#footer0 p , #footer1 p {
+#footer0, #footer1 p {
   text-align: center;
   font-size: 0.9rem;
   color: #fff;

@@ -98,16 +98,16 @@ b{
   background-color: #555;
 }
 
-#footer0, footer1 img{
+#footer0 img{
   padding-top: 10px;
   height: 3.5rem;
 }
 
-#footer0, footer1 a{
+#footer0 a{
   color: #fff;
 }
 
-#footer0, footer1 p{
+#footer0 p{
   text-align: center;
   font-size: 0.9rem;
   color: #fff;
@@ -115,8 +115,22 @@ b{
   padding-right: 40px;
 }
 
+#footer1 img{
+  padding-top: 10px;
+  height: 3.5rem;
+}
 
+#footer1 a{
+  color: #fff;
+}
 
+#footer1 p{
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 40px;
+}
 /*--footer设置结束--*/
 
 
@@ -376,3 +390,7 @@ div.go-top div.stick {
 }
 
 /*返回顶部按钮--结束--*/
+
+
+
+
